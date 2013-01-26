@@ -126,6 +126,8 @@
 		843D10561648AF2900DC6C34 /* spaceshipSubmitButton3.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D10511648AF2900DC6C34 /* spaceshipSubmitButton3.png */; };
 		843D10571648AF2900DC6C34 /* spaceshipSubmitButton4.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D10521648AF2900DC6C34 /* spaceshipSubmitButton4.png */; };
 		843D10581648AF2900DC6C34 /* spaceshipSubmitButton5.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D10531648AF2900DC6C34 /* spaceshipSubmitButton5.png */; };
+		849D0AEB16B436F200F8002D /* TheoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0AE816B436F200F8002D /* TheoriesViewController.m */; };
+		849D0AEC16B436F200F8002D /* TheoryReasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0AEA16B436F200F8002D /* TheoryReasonViewController.m */; };
 		849DDE5116169EEB00CA5B95 /* bcon.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4016169EEB00CA5B95 /* bcon.c */; };
 		849DDE5216169EEB00CA5B95 /* bson.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4216169EEB00CA5B95 /* bson.c */; };
 		849DDE5316169EEB00CA5B95 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4416169EEB00CA5B95 /* encoding.c */; };
@@ -317,6 +319,10 @@
 		843D10511648AF2900DC6C34 /* spaceshipSubmitButton3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceshipSubmitButton3.png; sourceTree = "<group>"; };
 		843D10521648AF2900DC6C34 /* spaceshipSubmitButton4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceshipSubmitButton4.png; sourceTree = "<group>"; };
 		843D10531648AF2900DC6C34 /* spaceshipSubmitButton5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceshipSubmitButton5.png; sourceTree = "<group>"; };
+		849D0AE716B436F200F8002D /* TheoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheoriesViewController.h; sourceTree = "<group>"; };
+		849D0AE816B436F200F8002D /* TheoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheoriesViewController.m; sourceTree = "<group>"; };
+		849D0AE916B436F200F8002D /* TheoryReasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheoryReasonViewController.h; sourceTree = "<group>"; };
+		849D0AEA16B436F200F8002D /* TheoryReasonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheoryReasonViewController.m; sourceTree = "<group>"; };
 		849DDE4016169EEB00CA5B95 /* bcon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bcon.c; sourceTree = "<group>"; };
 		849DDE4116169EEB00CA5B95 /* bcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bcon.h; sourceTree = "<group>"; };
 		849DDE4216169EEB00CA5B95 /* bson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bson.c; sourceTree = "<group>"; };
@@ -823,6 +829,10 @@
 		84AECEB316856C420070B419 /* HelioRoom */ = {
 			isa = PBXGroup;
 			children = (
+				849D0AE716B436F200F8002D /* TheoriesViewController.h */,
+				849D0AE816B436F200F8002D /* TheoriesViewController.m */,
+				849D0AE916B436F200F8002D /* TheoryReasonViewController.h */,
+				849D0AEA16B436F200F8002D /* TheoryReasonViewController.m */,
 				84137FD71648421800045E7E /* ChoosePlanetViewController.h */,
 				84137FD81648421800045E7E /* ChoosePlanetViewController.m */,
 				84EC38261614C1B500C16BE6 /* PlanetObservationModel.h */,
@@ -1250,6 +1260,8 @@
 				849DDE5916169EEB00CA5B95 /* mongo.c in Sources */,
 				849DDE5A16169EEB00CA5B95 /* numbers.c in Sources */,
 				84137FD91648421800045E7E /* ChoosePlanetViewController.m in Sources */,
+				849D0AEB16B436F200F8002D /* TheoriesViewController.m in Sources */,
+				849D0AEC16B436F200F8002D /* TheoryReasonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
