@@ -98,7 +98,7 @@
        // CGPoint point = [[[event allTouches] anyObject] locationInView:self.view];
         newPlanet.center=dropLocation;
         //create popover event
-        [self createdPlanetPopover:newPlanet :@"Mercury"];//TODO change
+        [self createdPlanetPopover:newPlanet :@"Mercury"];//TODO change to proper destination
         [sender setAlpha:0];
         [sender setUserInteractionEnabled:NO];
     }

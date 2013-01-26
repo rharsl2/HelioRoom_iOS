@@ -126,6 +126,7 @@
 		843D10561648AF2900DC6C34 /* spaceshipSubmitButton3.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D10511648AF2900DC6C34 /* spaceshipSubmitButton3.png */; };
 		843D10571648AF2900DC6C34 /* spaceshipSubmitButton4.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D10521648AF2900DC6C34 /* spaceshipSubmitButton4.png */; };
 		843D10581648AF2900DC6C34 /* spaceshipSubmitButton5.png in Resources */ = {isa = PBXBuildFile; fileRef = 843D10531648AF2900DC6C34 /* spaceshipSubmitButton5.png */; };
+		8474EC5E16B45CEB00FA0EA7 /* OrderReasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8474EC5D16B45CEB00FA0EA7 /* OrderReasonViewController.m */; };
 		849D0AEB16B436F200F8002D /* TheoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0AE816B436F200F8002D /* TheoriesViewController.m */; };
 		849D0AEC16B436F200F8002D /* TheoryReasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0AEA16B436F200F8002D /* TheoryReasonViewController.m */; };
 		849DDE5116169EEB00CA5B95 /* bcon.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4016169EEB00CA5B95 /* bcon.c */; };
@@ -189,6 +190,7 @@
 		84F352D116507EAA00DEB764 /* orangeLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F352CB16507EAA00DEB764 /* orangeLg.png */; };
 		84F352D216507EAA00DEB764 /* pinkLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F352CC16507EAA00DEB764 /* pinkLg.png */; };
 		84F352D316507EAA00DEB764 /* purpleLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F352CD16507EAA00DEB764 /* purpleLg.png */; };
+		84F9826E16B43F0A00804BE4 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9826D16B43F0A00804BE4 /* OrderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -319,6 +321,8 @@
 		843D10511648AF2900DC6C34 /* spaceshipSubmitButton3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceshipSubmitButton3.png; sourceTree = "<group>"; };
 		843D10521648AF2900DC6C34 /* spaceshipSubmitButton4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceshipSubmitButton4.png; sourceTree = "<group>"; };
 		843D10531648AF2900DC6C34 /* spaceshipSubmitButton5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceshipSubmitButton5.png; sourceTree = "<group>"; };
+		8474EC5C16B45CEB00FA0EA7 /* OrderReasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderReasonViewController.h; sourceTree = "<group>"; };
+		8474EC5D16B45CEB00FA0EA7 /* OrderReasonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderReasonViewController.m; sourceTree = "<group>"; };
 		849D0AE716B436F200F8002D /* TheoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheoriesViewController.h; sourceTree = "<group>"; };
 		849D0AE816B436F200F8002D /* TheoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheoriesViewController.m; sourceTree = "<group>"; };
 		849D0AE916B436F200F8002D /* TheoryReasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheoryReasonViewController.h; sourceTree = "<group>"; };
@@ -421,6 +425,8 @@
 		84F352CB16507EAA00DEB764 /* orangeLg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeLg.png; sourceTree = "<group>"; };
 		84F352CC16507EAA00DEB764 /* pinkLg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinkLg.png; sourceTree = "<group>"; };
 		84F352CD16507EAA00DEB764 /* purpleLg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleLg.png; sourceTree = "<group>"; };
+		84F9826C16B43F0A00804BE4 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = SOURCE_ROOT; };
+		84F9826D16B43F0A00804BE4 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -839,6 +845,10 @@
 				84EC38271614C1B500C16BE6 /* PlanetObservationModel.m */,
 				843739FE1613A615006D7253 /* ChooseInFrontViewController.h */,
 				843739FF1613A615006D7253 /* ChooseInFrontViewController.m */,
+				84F9826C16B43F0A00804BE4 /* OrderViewController.h */,
+				84F9826D16B43F0A00804BE4 /* OrderViewController.m */,
+				8474EC5C16B45CEB00FA0EA7 /* OrderReasonViewController.h */,
+				8474EC5D16B45CEB00FA0EA7 /* OrderReasonViewController.m */,
 			);
 			name = HelioRoom;
 			sourceTree = "<group>";
@@ -1262,6 +1272,8 @@
 				84137FD91648421800045E7E /* ChoosePlanetViewController.m in Sources */,
 				849D0AEB16B436F200F8002D /* TheoriesViewController.m in Sources */,
 				849D0AEC16B436F200F8002D /* TheoryReasonViewController.m in Sources */,
+				84F9826E16B43F0A00804BE4 /* OrderViewController.m in Sources */,
+				8474EC5E16B45CEB00FA0EA7 /* OrderReasonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

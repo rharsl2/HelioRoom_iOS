@@ -54,364 +54,14 @@
             </objects>
             <point key="canvasLocation" x="-264" y="-140"/>
         </scene>
-        <!--Choose In Front View Controller - Order Planets-->
+        <!--Order View Controller - Order Planets-->
         <scene sceneID="Pvk-NQ-2YQ">
             <objects>
-                <viewController restorationIdentifier="chooseFrontController" storyboardIdentifier="chooseFrontController" id="EXt-Uq-NcJ" customClass="ChooseInFrontViewController" sceneMemberID="viewController">
+                <viewController restorationIdentifier="chooseFrontController" storyboardIdentifier="chooseFrontController" id="EXt-Uq-NcJ" customClass="OrderViewController" sceneMemberID="viewController">
                     <view key="view" tag="1" contentMode="scaleToFill" id="flC-Tt-AVV">
                         <rect key="frame" x="0.0" y="20" width="1024" height="699"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dropFrontPlanet.png" translatesAutoresizingMaskIntoConstraints="NO" id="ffC-lL-fU1">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="295" id="JY1-6v-QJ4"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" image="frontPlanet.png" translatesAutoresizingMaskIntoConstraints="NO" id="2cs-J0-itB"/>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="drop closest planet here." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XQ-lB-qUy">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="353" id="9LR-IB-Tt5"/>
-                                    <constraint firstAttribute="height" constant="62" id="KHG-3j-tlf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
-                                <color key="textColor" white="0.65328467150000002" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dropBackPlanet.png" translatesAutoresizingMaskIntoConstraints="NO" id="aWQ-hF-ofx"/>
-                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" image="backPlanet.png" translatesAutoresizingMaskIntoConstraints="NO" id="zxU-JF-Hcd"/>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="drop furthest planet here." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9l-HE-A7P">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="353" id="uex-Vu-MJt"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
-                                <color key="textColor" white="0.65328467150000002" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" text="Type a message" translatesAutoresizingMaskIntoConstraints="NO" id="LIp-YI-1dc">
-                                <color key="backgroundColor" red="0.74011519455149732" green="1" blue="0.45664984976134981" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="102" id="7Ht-Ei-V5f"/>
-                                    <constraint firstAttribute="width" constant="306" id="Ywe-zZ-Kjr"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textField opaque="NO" clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="To" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FBs-dh-qTD">
-                                <color key="backgroundColor" red="0.74011519459999997" green="1" blue="0.45664984980000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="183" id="O3X-fO-AES"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axm-t5-z5Q">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="jrt-le-2hc"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" title="Send">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="sendPressed:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="rsw-Ha-yGi"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23w-eq-cn8">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="242" id="LTP-JJ-8tI"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" title="Send Group Message">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="sendGroupPressed:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="LZl-st-yM8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="11" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5g-dM-BYT">
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" image="red.png">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="planetDragInside:withEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="dQn-Jl-ezE"/>
-                                    <action selector="planetTouchDown:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDown" id="nOq-ut-2Iu"/>
-                                    <action selector="planetTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="0DZ-jr-ijm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" tag="21" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlE-V0-15h">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="redLg.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" tag="12" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3n-qD-utV">
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" image="blue.png">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="planetDragInside:withEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="cfJ-n7-fXh"/>
-                                    <action selector="planetTouchDown:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDown" id="OjT-fX-SMV"/>
-                                    <action selector="planetTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="J0B-cF-yL3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" tag="22" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eZ-fb-17j">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="blueLg.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" tag="13" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeN-cq-mPj">
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" image="yellow.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="planetDragInside:withEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="oW1-MO-zVr"/>
-                                    <action selector="planetTouchDown:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDown" id="Tid-IQ-iR9"/>
-                                    <action selector="planetTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="GYT-M5-Yvg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" tag="23" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbE-mB-0f2">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="yellowLg.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" tag="14" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWV-u8-OaV">
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" image="orange.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="planetDragInside:withEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="Ste-gt-TsQ"/>
-                                    <action selector="planetTouchDown:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDown" id="Wic-MW-xeN"/>
-                                    <action selector="planetTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="u0Z-xZ-GIr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" tag="24" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvy-Mg-mPn">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="orangeLg.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" tag="15" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dha-Gi-EId">
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" image="brown.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="planetDragInside:withEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="Y1q-t6-bVP"/>
-                                    <action selector="planetTouchDown:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDown" id="yhi-6O-VlB"/>
-                                    <action selector="planetTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="vHe-UH-k5b"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" tag="25" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jl5-90-Ewg">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="brownLg.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" tag="16" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1KA-lc-zfA">
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" image="pink.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="planetDragInside:withEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="pyR-BV-G2t"/>
-                                    <action selector="planetTouchDown:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDown" id="xAk-Cy-bz6"/>
-                                    <action selector="planetTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="BdX-ra-eFw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" tag="26" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Bh-3M-V5K">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="pinkLg.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" tag="17" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-aW-M7u">
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" image="green.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="planetDragInside:withEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="rOp-J5-xzU"/>
-                                    <action selector="planetTouchDown:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDown" id="PmN-ZM-tY3"/>
-                                    <action selector="planetTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="NqN-bM-Pdi"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" tag="27" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0j-Nu-1K1">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="greenLg.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" tag="18" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytI-20-e3D">
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" image="purple.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="planetDragInside:withEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="9AQ-8Q-dr4"/>
-                                    <action selector="planetTouchDown:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDown" id="4mN-AP-jDz"/>
-                                    <action selector="planetTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="Tf9-r0-n4R"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" tag="28" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoA-ee-Mf6">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="purpleLg.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" tag="19" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRy-yY-95O">
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" image="gray.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="planetDragInside:withEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="CT0-Ke-jVZ"/>
-                                    <action selector="planetTouchDown:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDown" id="Afl-3q-Aed"/>
-                                    <action selector="planetTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="96G-aG-Cve"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" tag="29" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I49-sf-LZJ">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="grayLg.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="isInFrontOf.png" translatesAutoresizingMaskIntoConstraints="NO" id="HQP-Xh-oqX"/>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ila-OG-YH8">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="104" id="1v9-i2-Qvv"/>
-                                    <constraint firstAttribute="height" constant="50" id="ioU-19-0ba"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
-                                <state key="normal" title="Submit" backgroundImage="submitButtonText.png">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="submitButtonPressed:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="M4i-Uz-x6t"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWY-Xk-hVo">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="0BH-Pe-45F"/>
-                                    <constraint firstAttribute="width" constant="155" id="64y-du-fWA"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="HelioRoom" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZ9-2E-4eO">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="0Ak-tH-81y"/>
@@ -421,9 +71,238 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="drag planet from here to others that are farther away" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="261" translatesAutoresizingMaskIntoConstraints="NO" id="Iyv-9M-v59">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="261" id="cFN-9d-5fa"/>
+                                    <constraint firstAttribute="height" constant="62" id="hPM-Yn-bKh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dropBackPlanet.png" translatesAutoresizingMaskIntoConstraints="NO" id="2ff-80-nOA">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="288" id="3Bf-Ta-h0N"/>
+                                    <constraint firstAttribute="height" constant="290" id="B9k-sg-rlL"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="blueLg.png" translatesAutoresizingMaskIntoConstraints="NO" id="ffC-lL-fU1">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="9Cm-hp-sBd"/>
+                                    <constraint firstAttribute="width" constant="300" id="IYJ-QB-nWD"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="grayLg.png" translatesAutoresizingMaskIntoConstraints="NO" id="aWQ-hF-ofx">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="QK0-Oi-eYu"/>
+                                    <constraint firstAttribute="height" constant="300" id="aN2-h4-31Y"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="brownLg.png" translatesAutoresizingMaskIntoConstraints="NO" id="s9F-8g-xmm">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="5qH-nZ-81Q"/>
+                                    <constraint firstAttribute="height" constant="300" id="XID-aA-p1d"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pinkLg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kr6-1a-FQb">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="8KN-Xd-q2M"/>
+                                    <constraint firstAttribute="height" constant="300" id="Dhb-aW-oav"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="redLg.png" translatesAutoresizingMaskIntoConstraints="NO" id="pdz-xa-S1t">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="No5-hH-Lnv"/>
+                                    <constraint firstAttribute="height" constant="300" id="UBs-u8-wNB"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="yellowLg.png" translatesAutoresizingMaskIntoConstraints="NO" id="adV-Hl-Run">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="ts6-kT-Voh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="greenLg.png" translatesAutoresizingMaskIntoConstraints="NO" id="SQN-rp-bgr">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="3Cv-U3-KTn"/>
+                                    <constraint firstAttribute="width" constant="300" id="BBv-wH-iqc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="orangeLg.png" translatesAutoresizingMaskIntoConstraints="NO" id="WvK-Tg-cnX">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="kne-6M-HtI"/>
+                                    <constraint firstAttribute="width" constant="300" id="tSo-W9-ORU"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5g-dM-BYT">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="E45-PW-FHw"/>
+                                    <constraint firstAttribute="height" constant="80" id="thd-qp-m43"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                <state key="normal" image="redLg.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorDragInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="tct-nh-xS0"/>
+                                    <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="zSX-45-ZFN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3n-qD-utV">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="cRh-lY-NYR"/>
+                                    <constraint firstAttribute="height" constant="80" id="qkc-Cn-5S3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                <state key="normal" image="blueLg.png">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorDragInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="ybO-yg-LVm"/>
+                                    <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="g0C-h2-4jp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeN-cq-mPj">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="k8G-QZ-Xzw"/>
+                                    <constraint firstAttribute="width" constant="80" id="qdL-gk-ljV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                <state key="normal" image="yellowLg.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorDragInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="cVG-H2-mqR"/>
+                                    <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="pNH-8Z-41K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWV-u8-OaV">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="LYx-hK-HHu"/>
+                                    <constraint firstAttribute="height" constant="80" id="pvD-EF-mkN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                <state key="normal" image="orangeLg.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorDragInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="x5T-EM-j2P"/>
+                                    <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="2Hj-sv-OC7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dha-Gi-EId">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="HZb-p4-bMc"/>
+                                    <constraint firstAttribute="height" constant="80" id="jJh-hL-DMp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                <state key="normal" image="brownLg.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorDragInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="TBx-SC-cyu"/>
+                                    <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="zM3-0E-Sfo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1KA-lc-zfA">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Zuo-Dc-eEF"/>
+                                    <constraint firstAttribute="width" constant="80" id="jkj-Zp-Rmu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                <state key="normal" image="pinkLg.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorDragInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="4RQ-Bk-jMu"/>
+                                    <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="ORi-ti-3i7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-aW-M7u">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="5IO-zL-Z1F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                <state key="normal" image="greenLg.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorDragInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="pPX-rB-Ipf"/>
+                                    <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="ZdU-UZ-hEm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRy-yY-95O">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="AMb-WE-BDe"/>
+                                    <constraint firstAttribute="height" constant="80" id="pfb-3N-1vd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                <state key="normal" image="grayLg.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorDragInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchDragInside" id="JF0-H7-wZ9"/>
+                                    <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="kH1-E1-Y0h"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9js-DM-wDd">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="QgT-xr-byw"/>
+                                    <constraint firstAttribute="width" constant="100" id="9Zg-9r-QHw"/>
                                     <constraint firstAttribute="height" constant="44" id="gkF-Ch-mQh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
@@ -438,126 +317,66 @@
                                     <action selector="loginButtonPressed:" destination="EXt-Uq-NcJ" eventType="touchDown" id="YSK-1c-ZkX"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="is in front of" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iyv-9M-v59">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="hPM-Yn-bKh"/>
-                                    <constraint firstAttribute="width" constant="200" id="ymo-E1-4Db"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="4Bh-3M-V5K" secondAttribute="trailing" constant="243" id="1gR-MH-Pfp"/>
-                            <constraint firstItem="zWV-u8-OaV" firstAttribute="top" secondItem="EeN-cq-mPj" secondAttribute="top" type="default" id="32I-s3-AGP"/>
-                            <constraint firstItem="23w-eq-cn8" firstAttribute="leading" secondItem="Iyv-9M-v59" secondAttribute="leading" type="default" id="48u-1j-aZF"/>
-                            <constraint firstItem="e3n-qD-utV" firstAttribute="top" secondItem="M5g-dM-BYT" secondAttribute="top" type="default" id="79v-ZZ-UNi"/>
-                            <constraint firstItem="M5g-dM-BYT" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" type="default" id="7cY-c2-qZc"/>
-                            <constraint firstItem="2cs-J0-itB" firstAttribute="top" secondItem="aWQ-hF-ofx" secondAttribute="top" type="default" id="7dt-38-IOK"/>
-                            <constraint firstItem="zxU-JF-Hcd" firstAttribute="top" secondItem="aWQ-hF-ofx" secondAttribute="top" type="default" id="8eX-c5-QwA"/>
-                            <constraint firstItem="FBs-dh-qTD" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="634" id="8gf-r8-4hP"/>
-                            <constraint firstItem="1eZ-fb-17j" firstAttribute="top" secondItem="EeN-cq-mPj" secondAttribute="top" type="default" id="8wA-aD-YYL"/>
-                            <constraint firstItem="DhX-aW-M7u" firstAttribute="top" secondItem="1KA-lc-zfA" secondAttribute="top" type="default" id="8xr-ak-hMT"/>
-                            <constraint firstItem="I49-sf-LZJ" firstAttribute="top" secondItem="eRy-yY-95O" secondAttribute="top" type="default" id="9NJ-dM-0nb"/>
-                            <constraint firstAttribute="trailing" secondItem="R9l-HE-A7P" secondAttribute="trailing" constant="21" id="B2H-vE-teq"/>
-                            <constraint firstItem="ffC-lL-fU1" firstAttribute="top" secondItem="2cs-J0-itB" secondAttribute="top" type="default" id="Byx-Lv-ITj"/>
-                            <constraint firstItem="HQP-Xh-oqX" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="351" id="CWL-ra-zHY"/>
-                            <constraint firstItem="Iyv-9M-v59" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="329" id="CoN-Qo-Ffg"/>
-                            <constraint firstItem="zxU-JF-Hcd" firstAttribute="bottom" secondItem="aWQ-hF-ofx" secondAttribute="bottom" type="default" id="Ejf-of-LrQ"/>
-                            <constraint firstItem="EeN-cq-mPj" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="210" id="Fv6-pU-YvO"/>
-                            <constraint firstItem="axm-t5-z5Q" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="104" id="GVX-Zf-6UF"/>
-                            <constraint firstItem="zWV-u8-OaV" firstAttribute="top" secondItem="MbE-mB-0f2" secondAttribute="top" type="default" id="GxD-BK-5wY"/>
-                            <constraint firstItem="ytI-20-e3D" firstAttribute="top" secondItem="DhX-aW-M7u" secondAttribute="top" type="default" id="H5E-qr-pCS"/>
-                            <constraint firstItem="Fvy-Mg-mPn" firstAttribute="leading" secondItem="zWV-u8-OaV" secondAttribute="leading" type="default" id="K3u-am-MNK"/>
-                            <constraint firstItem="aWQ-hF-ofx" firstAttribute="bottom" secondItem="ffC-lL-fU1" secondAttribute="bottom" type="default" id="Ko3-SG-SlL"/>
-                            <constraint firstItem="FBs-dh-qTD" firstAttribute="bottom" secondItem="LZ9-2E-4eO" secondAttribute="bottom" type="default" id="MGX-CF-Ndu"/>
-                            <constraint firstItem="Jl5-90-Ewg" firstAttribute="trailing" secondItem="HQP-Xh-oqX" secondAttribute="trailing" type="default" id="Mqw-zd-2F0"/>
-                            <constraint firstItem="LIp-YI-1dc" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="382" id="N56-a5-TIR"/>
-                            <constraint firstItem="EeN-cq-mPj" firstAttribute="top" secondItem="e3n-qD-utV" secondAttribute="top" type="default" id="NJx-LV-fAq"/>
-                            <constraint firstItem="23w-eq-cn8" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="405" id="SQx-r2-gRQ"/>
-                            <constraint firstItem="dha-Gi-EId" firstAttribute="top" secondItem="zWV-u8-OaV" secondAttribute="top" type="default" id="VNb-Zg-bWh"/>
-                            <constraint firstItem="Ila-OG-YH8" firstAttribute="bottom" secondItem="flC-Tt-AVV" secondAttribute="bottom" type="default" id="VOI-Ad-Vmr"/>
+                            <constraint firstItem="Kr6-1a-FQb" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="344" id="2J1-k7-EYy"/>
+                            <constraint firstItem="zWV-u8-OaV" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="79" id="2k2-HZ-h54"/>
+                            <constraint firstItem="ffC-lL-fU1" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="-16" id="3g0-Mo-tjd"/>
+                            <constraint firstItem="pdz-xa-S1t" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="450" id="6Wf-ql-NMK"/>
+                            <constraint firstItem="1KA-lc-zfA" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="84" id="6nx-S0-Zew"/>
+                            <constraint firstItem="ffC-lL-fU1" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="357" id="7eb-6R-Aav"/>
+                            <constraint firstAttribute="trailing" secondItem="Iyv-9M-v59" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="8wW-fS-36a"/>
+                            <constraint firstItem="EeN-cq-mPj" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="143" id="C1Q-SH-H9G"/>
+                            <constraint firstItem="adV-Hl-Run" firstAttribute="top" secondItem="aWQ-hF-ofx" secondAttribute="top" type="default" id="DUr-zu-faT"/>
+                            <constraint firstAttribute="trailing" secondItem="2ff-80-nOA" secondAttribute="trailing" constant="8" id="DlQ-mB-tm9"/>
+                            <constraint firstItem="Iyv-9M-v59" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="10" id="GNg-Hr-qvx"/>
+                            <constraint firstItem="pdz-xa-S1t" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="210" id="INi-ae-J0k"/>
+                            <constraint firstItem="Kr6-1a-FQb" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="-17" id="LkH-uL-SYf"/>
+                            <constraint firstAttribute="trailing" secondItem="zWV-u8-OaV" secondAttribute="trailing" constant="190" id="P3z-zi-atZ"/>
+                            <constraint firstItem="e3n-qD-utV" firstAttribute="top" secondItem="DhX-aW-M7u" secondAttribute="top" type="default" id="QxR-zE-PkU"/>
+                            <constraint firstItem="eRy-yY-95O" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="66" id="Rpj-2G-4Kg"/>
+                            <constraint firstItem="s9F-8g-xmm" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" type="default" id="TTC-lQ-eW8"/>
                             <constraint firstItem="LZ9-2E-4eO" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="25" id="WDf-Lr-h26"/>
-                            <constraint firstItem="HlE-V0-15h" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" type="default" id="WQd-Oe-cUG"/>
-                            <constraint firstAttribute="trailing" secondItem="zxU-JF-Hcd" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="XeK-dh-8pq"/>
-                            <constraint firstItem="5XQ-lB-qUy" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="249" id="YtY-la-yFz"/>
-                            <constraint firstItem="ytI-20-e3D" firstAttribute="leading" secondItem="EoA-ee-Mf6" secondAttribute="leading" type="default" id="Zgg-hx-Pbn"/>
-                            <constraint firstItem="LZ9-2E-4eO" firstAttribute="leading" secondItem="2cs-J0-itB" secondAttribute="leading" type="default" id="agc-nc-BBU"/>
-                            <constraint firstItem="e3n-qD-utV" firstAttribute="leading" secondItem="1eZ-fb-17j" secondAttribute="leading" type="default" id="cWe-jp-Hez"/>
-                            <constraint firstItem="2cs-J0-itB" firstAttribute="bottom" secondItem="ffC-lL-fU1" secondAttribute="bottom" type="default" id="e4d-kj-nmJ"/>
-                            <constraint firstItem="HQP-Xh-oqX" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="275" id="ecB-CI-kBS"/>
-                            <constraint firstItem="5XQ-lB-qUy" firstAttribute="top" secondItem="R9l-HE-A7P" secondAttribute="top" type="default" id="fqw-V0-34H"/>
-                            <constraint firstItem="1KA-lc-zfA" firstAttribute="top" secondItem="Jl5-90-Ewg" secondAttribute="top" type="default" id="g91-Ge-2jd"/>
-                            <constraint firstItem="Ila-OG-YH8" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="443" id="gC1-DT-PB6"/>
-                            <constraint firstItem="5XQ-lB-qUy" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="39" id="ga1-ZY-JzW"/>
-                            <constraint firstItem="ffC-lL-fU1" firstAttribute="leading" secondItem="2cs-J0-itB" secondAttribute="leading" type="default" id="gxi-Yy-ALe"/>
+                            <constraint firstItem="WvK-Tg-cnX" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="278" id="X3x-3c-AMw"/>
+                            <constraint firstItem="LZ9-2E-4eO" firstAttribute="top" secondItem="2ff-80-nOA" secondAttribute="top" type="default" id="XDH-rk-b25"/>
+                            <constraint firstAttribute="trailing" secondItem="EeN-cq-mPj" secondAttribute="trailing" constant="212" id="Xcf-cI-yg7"/>
+                            <constraint firstItem="M5g-dM-BYT" firstAttribute="top" secondItem="eRy-yY-95O" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ZXe-Kb-JEL"/>
+                            <constraint firstItem="dha-Gi-EId" firstAttribute="centerX" secondItem="2ff-80-nOA" secondAttribute="centerX" type="default" id="cdL-J2-dI2"/>
+                            <constraint firstAttribute="trailing" secondItem="1KA-lc-zfA" secondAttribute="trailing" constant="14" id="eZE-gd-7uk"/>
+                            <constraint firstAttribute="trailing" secondItem="eRy-yY-95O" secondAttribute="trailing" constant="95" id="fFs-HG-RCT"/>
+                            <constraint firstItem="s9F-8g-xmm" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="15" id="fln-6Y-2eH"/>
+                            <constraint firstItem="WvK-Tg-cnX" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="753" id="foK-aM-bFg"/>
+                            <constraint firstItem="WvK-Tg-cnX" firstAttribute="centerX" secondItem="DhX-aW-M7u" secondAttribute="centerX" type="default" id="gfk-k7-Y6f"/>
+                            <constraint firstItem="adV-Hl-Run" firstAttribute="bottom" secondItem="aWQ-hF-ofx" secondAttribute="bottom" type="default" id="hAp-63-VK4"/>
                             <constraint firstItem="9js-DM-wDd" firstAttribute="trailing" secondItem="flC-Tt-AVV" secondAttribute="trailing" type="default" id="hEb-w6-87l"/>
-                            <constraint firstItem="e3n-qD-utV" firstAttribute="top" secondItem="HlE-V0-15h" secondAttribute="top" type="default" id="hP7-9a-oqj"/>
-                            <constraint firstItem="T0j-Nu-1K1" firstAttribute="leading" secondItem="DhX-aW-M7u" secondAttribute="leading" type="default" id="iLf-8c-eZZ"/>
-                            <constraint firstItem="MbE-mB-0f2" firstAttribute="leading" secondItem="EeN-cq-mPj" secondAttribute="leading" type="default" id="iiu-Zs-bmL"/>
-                            <constraint firstItem="2cs-J0-itB" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="258" id="iow-OS-FKH"/>
-                            <constraint firstItem="FBs-dh-qTD" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="-4" id="j96-Je-YC8"/>
-                            <constraint firstAttribute="bottom" secondItem="LWY-Xk-hVo" secondAttribute="bottom" constant="41" id="kU7-ds-qG1"/>
-                            <constraint firstItem="I49-sf-LZJ" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="840" id="krS-Ef-MKZ"/>
-                            <constraint firstItem="9js-DM-wDd" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="665" id="l00-hZ-m53"/>
-                            <constraint firstItem="4Bh-3M-V5K" firstAttribute="leading" secondItem="1KA-lc-zfA" secondAttribute="leading" type="default" id="mMq-rj-lTv"/>
-                            <constraint firstItem="zWV-u8-OaV" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="315" id="mcE-HO-ZfR"/>
-                            <constraint firstItem="23w-eq-cn8" firstAttribute="centerX" secondItem="LWY-Xk-hVo" secondAttribute="centerX" type="default" id="myc-cf-4uu"/>
-                            <constraint firstItem="I49-sf-LZJ" firstAttribute="leading" secondItem="eRy-yY-95O" secondAttribute="leading" type="default" id="nJK-Nk-nwg"/>
-                            <constraint firstAttribute="trailing" secondItem="T0j-Nu-1K1" secondAttribute="trailing" constant="138" id="p4w-hh-8o3"/>
-                            <constraint firstItem="5XQ-lB-qUy" firstAttribute="baseline" secondItem="R9l-HE-A7P" secondAttribute="baseline" type="default" id="p71-0h-4sK"/>
-                            <constraint firstItem="LIp-YI-1dc" firstAttribute="trailing" secondItem="axm-t5-z5Q" secondAttribute="trailing" type="default" id="raT-60-6L9"/>
-                            <constraint firstItem="23w-eq-cn8" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="271" id="rag-Y3-U35"/>
-                            <constraint firstItem="DhX-aW-M7u" firstAttribute="top" secondItem="4Bh-3M-V5K" secondAttribute="top" type="default" id="rl9-Mz-cq2"/>
-                            <constraint firstAttribute="trailing" secondItem="aWQ-hF-ofx" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="sBw-nU-Jv3"/>
-                            <constraint firstItem="Fvy-Mg-mPn" firstAttribute="top" secondItem="zWV-u8-OaV" secondAttribute="top" type="default" id="sb1-ls-oAR"/>
-                            <constraint firstItem="ytI-20-e3D" firstAttribute="top" secondItem="T0j-Nu-1K1" secondAttribute="top" type="default" id="srv-ig-ha2"/>
-                            <constraint firstItem="e3n-qD-utV" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="105" id="twI-fT-25s"/>
-                            <constraint firstItem="eRy-yY-95O" firstAttribute="top" secondItem="ytI-20-e3D" secondAttribute="top" type="default" id="uke-gg-isF"/>
-                            <constraint firstAttribute="trailing" secondItem="EoA-ee-Mf6" secondAttribute="trailing" constant="33" id="umZ-13-Tb5"/>
-                            <constraint firstItem="1KA-lc-zfA" firstAttribute="top" secondItem="dha-Gi-EId" secondAttribute="top" type="default" id="vYA-1X-LfG"/>
-                            <constraint firstItem="eRy-yY-95O" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="25" id="x30-Rd-LXf"/>
-                            <constraint firstItem="Jl5-90-Ewg" firstAttribute="leading" secondItem="dha-Gi-EId" secondAttribute="leading" type="default" id="yCa-7Q-2Ue"/>
-                            <constraint firstItem="ytI-20-e3D" firstAttribute="top" secondItem="EoA-ee-Mf6" secondAttribute="top" type="default" id="ywh-wZ-wGr"/>
-                            <constraint firstItem="LIp-YI-1dc" firstAttribute="top" secondItem="axm-t5-z5Q" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="zfd-67-7ZA"/>
+                            <constraint firstItem="M5g-dM-BYT" firstAttribute="leading" secondItem="dha-Gi-EId" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="iDj-GE-Bfk"/>
+                            <constraint firstItem="9js-DM-wDd" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="665" id="kvz-hN-rld"/>
+                            <constraint firstItem="Kr6-1a-FQb" firstAttribute="bottom" secondItem="e3n-qD-utV" secondAttribute="bottom" type="default" id="lY8-sV-Nf6"/>
+                            <constraint firstItem="SQN-rp-bgr" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="193" id="lwZ-8u-wx6"/>
+                            <constraint firstItem="LZ9-2E-4eO" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="5" id="nRL-BV-BOf"/>
+                            <constraint firstItem="DhX-aW-M7u" firstAttribute="bottom" secondItem="e3n-qD-utV" secondAttribute="bottom" type="default" id="p7e-eb-HE8"/>
+                            <constraint firstItem="dha-Gi-EId" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="133" id="qiz-Ik-SJf"/>
+                            <constraint firstItem="aWQ-hF-ofx" firstAttribute="top" secondItem="flC-Tt-AVV" secondAttribute="top" constant="431" id="rNm-0c-6X0"/>
+                            <constraint firstItem="adV-Hl-Run" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="560" id="s3G-rY-sGx"/>
+                            <constraint firstItem="adV-Hl-Run" firstAttribute="trailing" secondItem="e3n-qD-utV" secondAttribute="trailing" type="default" id="sai-si-ssW"/>
+                            <constraint firstItem="aWQ-hF-ofx" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="269" id="v94-ZF-3zp"/>
+                            <constraint firstItem="SQN-rp-bgr" firstAttribute="leading" secondItem="flC-Tt-AVV" secondAttribute="leading" constant="185" id="vJe-C3-gNM"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Order Planets" image="tab_planetOrder.png" id="mBk-aF-ihL"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="backPlanetArea" destination="aWQ-hF-ofx" id="Na5-Za-huH"/>
-                        <outlet property="backPlanetChoseView" destination="zxU-JF-Hcd" id="X6e-G2-cvF"/>
-                        <outlet property="bluePlanet" destination="e3n-qD-utV" id="Ka1-va-Fot"/>
-                        <outlet property="bluePlanetLg" destination="1eZ-fb-17j" id="6FY-qb-6Ly"/>
-                        <outlet property="brownPlanet" destination="dha-Gi-EId" id="nOV-lE-9x0"/>
-                        <outlet property="brownPlanetLg" destination="Jl5-90-Ewg" id="7sh-Ic-CJE"/>
-                        <outlet property="dropClosest" destination="5XQ-lB-qUy" id="tpA-jz-PGs"/>
-                        <outlet property="dropFurthest" destination="R9l-HE-A7P" id="2Pu-di-ncv"/>
-                        <outlet property="frontPlanetArea" destination="ffC-lL-fU1" id="bLW-PH-lrQ"/>
-                        <outlet property="frontPlanetChoseView" destination="2cs-J0-itB" id="BPG-n6-tdN"/>
-                        <outlet property="grayPlanet" destination="eRy-yY-95O" id="csB-ea-ikn"/>
-                        <outlet property="grayPlanetLg" destination="I49-sf-LZJ" id="wsH-Xr-Jjf"/>
-                        <outlet property="greenPlanet" destination="DhX-aW-M7u" id="4KR-GH-iYp"/>
-                        <outlet property="greenPlanetLg" destination="T0j-Nu-1K1" id="Ian-QY-uZE"/>
-                        <outlet property="isInFrontView" destination="HQP-Xh-oqX" id="4Tm-Cw-9qO"/>
+                        <outlet property="blueDrop" destination="ffC-lL-fU1" id="xcU-sF-iDF"/>
+                        <outlet property="brownDrop" destination="s9F-8g-xmm" id="zGq-xj-5CI"/>
+                        <outlet property="grayDrop" destination="aWQ-hF-ofx" id="muW-4u-6Nf"/>
+                        <outlet property="greenDrop" destination="SQN-rp-bgr" id="bLg-Ak-pTH"/>
                         <outlet property="loginButton" destination="9js-DM-wDd" id="ZlO-Ed-c9X"/>
-                        <outlet property="msgField" destination="LIp-YI-1dc" id="hYZ-0s-F27"/>
-                        <outlet property="orangePlanet" destination="zWV-u8-OaV" id="eYy-3j-zon"/>
-                        <outlet property="orangePlanetLg" destination="Fvy-Mg-mPn" id="0gm-oa-hh8"/>
-                        <outlet property="pinkPlanet" destination="1KA-lc-zfA" id="S8S-pG-3Ax"/>
-                        <outlet property="pinkPlanetLg" destination="4Bh-3M-V5K" id="dFf-VW-Thg"/>
-                        <outlet property="purplePlanet" destination="ytI-20-e3D" id="Tsm-w5-xV3"/>
-                        <outlet property="purplePlanetLg" destination="EoA-ee-Mf6" id="yrI-oT-joP"/>
-                        <outlet property="redPlanet" destination="M5g-dM-BYT" id="b0v-Ii-9Yg"/>
-                        <outlet property="redPlanetLg" destination="HlE-V0-15h" id="boS-be-e8M"/>
-                        <outlet property="submitButton" destination="Ila-OG-YH8" id="ZP8-Nh-A0f"/>
-                        <outlet property="submitButtonAnimation" destination="LWY-Xk-hVo" id="a31-kH-gSE"/>
-                        <outlet property="toField" destination="FBs-dh-qTD" id="On2-QE-HgS"/>
-                        <outlet property="yellowPlanet" destination="EeN-cq-mPj" id="y0O-EV-RU7"/>
-                        <outlet property="yellowPlanetLg" destination="MbE-mB-0f2" id="0XJ-Bl-FMr"/>
+                        <outlet property="orangeDrop" destination="WvK-Tg-cnX" id="Myy-9A-dgi"/>
+                        <outlet property="pinkDrop" destination="Kr6-1a-FQb" id="Y3n-iL-8FL"/>
+                        <outlet property="redDrop" destination="pdz-xa-S1t" id="i5u-dU-lUW"/>
+                        <outlet property="yellowDrop" destination="adV-Hl-Run" id="MmO-Tl-RXb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mTM-d6-3vX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2419,6 +2238,27 @@
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="OrderViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OrderViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="colorDragInside:forEvent:" candidateClass="UIButton"/>
+                <relationship kind="action" name="colorTouchUpInside:forEvent:" candidateClass="UIButton"/>
+                <relationship kind="action" name="createdColorDragInside:" candidateClass="UIButton"/>
+                <relationship kind="action" name="createdColorDragInside:forEvent:" candidateClass="UIButton"/>
+                <relationship kind="action" name="createdColorTouchUpInside:" candidateClass="UIButton"/>
+                <relationship kind="action" name="loginButtonPressed:"/>
+                <relationship kind="outlet" name="blueDrop" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="brownDrop" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="grayDrop" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="greenDrop" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="loginButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="orangeDrop" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="pinkDrop" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="planetTable" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="redDrop" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="yellowDrop" candidateClass="UIImageView"/>
+            </relationships>
         </class>
         <class className="RootViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/RootViewController.h"/>

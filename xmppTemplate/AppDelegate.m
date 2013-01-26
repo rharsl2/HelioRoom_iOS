@@ -663,8 +663,8 @@ NSString *const chatLocation = @"helioRoom@conference.rharsley"; //set to locati
 //
 //            [[choose getLargePlanetButton:planetName] setAlpha:0];
 //        }
-        [choose clearDropAreas];
-        [choose updateSubmitButton];
+        //[choose clearDropAreas];
+       // [choose updateSubmitButton];
    }
 }
 -(void)writeDebugMessage:(NSString *)msg{
