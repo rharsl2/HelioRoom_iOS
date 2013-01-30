@@ -137,7 +137,7 @@ NSString * mostRecentDropColor=@"";
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:reasonViewController];
     reasonViewController.delegate=self;
     self.reasonPopover = [[UIPopoverController alloc] initWithContentViewController:nav];
-    
+    self.reasonPopover.passthroughViews = [[NSArray alloc] initWithObjects:self.view, nil];
     [self.reasonPopover presentPopoverFromRect:created.frame inView:self.view permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
     
 }

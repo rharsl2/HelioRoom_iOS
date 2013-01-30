@@ -93,7 +93,7 @@
         [newPlanet setBackgroundImage:[UIImage imageNamed:[self getPlanetImage:sender.tag]] forState:UIControlStateNormal];
         [newPlanet setFrame:CGRectMake(0,0,60,60)];
         [newPlanet addTarget:self action:@selector(createdPlanetDragInside:forEvent:) forControlEvents:UIControlEventTouchDragInside];
-        [newPlanet addTarget:self action:@selector(createdPlanetTouchUpInside:) forControlEvents:UIControlEventTouchUpInside];
+        [newPlanet addTarget:self action:@selector(createdPlanetTouchUpInside:forEvent:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:newPlanet];
        // CGPoint point = [[[event allTouches] anyObject] locationInView:self.view];
         newPlanet.center=dropLocation;
@@ -114,9 +114,20 @@
     
     [[self appDelegate] writeDebugMessage:@"created planet drag inside event"];
 }
-- (IBAction)createdPlanetTouchUpInside:(UIButton *)sender{
+- (IBAction)createdPlanetTouchUpInside:(UIButton *)sender forEvent:(UIEvent *)event {
     //Get previous reason popover and display.
     [[self appDelegate] writeDebugMessage:@"created planet touch up inside event"];
+    
+    if([self getCurrentArea:sender :event]== -1){//outside drop areas
+        //remove planet from drop area and view
+        [sender removeFromSuperview];
+        [self.view viewWithTag:[self getTag:sender.currentTitle]].userInteractionEnabled=YES;
+        [self.view viewWithTag:[self getTag:sender.currentTitle]].alpha=1;
+    }else{
+        [self.view addSubview:sender];//reload view
+        //sender restore to original place
+    }
+    
 }
 //HELPER FUNCTIONS
  -(void) createdPlanetPopover:(UIButton *)created:(NSString *)planet{
@@ -126,10 +137,29 @@
      UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:reasonViewController];
      reasonViewController.delegate=self;
      self.reasonPopover = [[UIPopoverController alloc] initWithContentViewController:nav];
-     
+     self.reasonPopover.passthroughViews = [[NSArray alloc] initWithObjects:self.view, nil];
      [self.reasonPopover presentPopoverFromRect:created.frame inView:self.view permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
      
  }
+-(int)getCurrentArea:(UIButton *)sender:(UIEvent *)event{
+    for (UIImageView *dropArea in self.allDropAreas){
+        CGPoint pointInDropView = [[[event allTouches] anyObject] locationInView:dropArea];
+        int i=1;
+        if ([dropArea pointInside:pointInDropView withEvent:nil]) {
+            NSMutableArray * dropArea = [self getDropArea:i];
+            for (UIButton *createdPlanet in dropArea){
+                if([createdPlanet.titleLabel.text isEqualToString:sender.titleLabel.text]){
+                    //color already present
+                    [[self appDelegate] writeDebugMessage:@"dropped in same drop area"];
+                    //TODO: What about others classmates count
+                    return i;
+                }
+            }
+        }
+        i++;
+    }
+    return -1;
+}
 -(NSString *)getPlanetImage:(NSInteger)tag{
     int tagInt =tag;
     //printf("tag is %d\n",tagInt);
@@ -166,6 +196,26 @@
     }
     return @"An error occured in getPlanetImage";
 }
+-(int)getTag:(NSString *)name{
+        if([name isEqualToString: @"red"])
+            return 1;
+        else if([name isEqualToString: @"blue"])
+            return 2;
+        else if([name isEqualToString: @"yellow"])
+            return 3;
+        else if([name isEqualToString: @"orange"])
+            return 4;
+        else if([name isEqualToString: @"brown"])
+            return 5;
+        else if([name isEqualToString: @"pink"])
+            return 6;
+        else if([name isEqualToString: @"green"])
+            return 7;
+        else if([name isEqualToString: @"gray"])
+            return 8;
+    
+    return -100;//error
+}
 
 -(NSMutableArray *)getDropArea:(int)i{
     //printf("tag is %d\n",tagInt);
@@ -192,11 +242,10 @@
     for (UIImageView *dropArea in self.allDropAreas){
         CGPoint pointInDropView = [[[event allTouches] anyObject] locationInView:dropArea];
         if ([dropArea pointInside:pointInDropView withEvent:nil]) {
-            printf("dropped in\n");
             droppedViewInKnownArea =YES;
             //check not drop on top of other planet guess
             CGPoint dropAreaPlacement = [self getDropAreaOpening:i:newPlanet];
-            if(dropAreaPlacement.x ==0){
+            if(dropAreaPlacement.x ==0 || dropAreaPlacement.y==-1){
                 printf("drop area not open");
                 droppedViewInKnownArea=NO;
                 [self.view addSubview:sender];
@@ -231,13 +280,13 @@
         if([createdPlanet.titleLabel.text isEqualToString:newPlanet.titleLabel.text]){
             //color already present
             [[self appDelegate] writeDebugMessage:@"color already in drop area"];
-             return CGPointMake(0, 0);
+             return CGPointMake(0, -1);
         }
         j++;
     }
     if(j<=4){//can add another button
-        CGFloat x = 260.0 + j*100.0;
-        CGFloat y = 35.0 + i*70.0;
+        CGFloat x = 170.0 + j*100.0;
+        CGFloat y = 14.0 + i*76.0;
         [dropArea addObject:newPlanet];
         return CGPointMake(x,y);  
     }
