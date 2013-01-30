@@ -286,7 +286,7 @@ NSString * mostRecentDropColor=@"";
         [dropArea addObject:newPlanet];
         return CGPointMake(x,y);
     }
-    NSLog(@"j %f",j);
+   // NSLog(@"j %f",j);
     return CGPointMake(0, 0);
 }
 
