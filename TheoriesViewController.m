@@ -25,12 +25,12 @@
 @synthesize saturnDropArea = _saturnDropArea;
 @synthesize uranusDropArea = _uranusDropArea;
 @synthesize neptuneDropArea = _neptuneDropArea;
-@synthesize plutoDropArea = _plutoDropArea;
+//@synthesize plutoDropArea = _plutoDropArea;
 
 //@synthesize reasonViewController = _reasonViewController;
 
 - (NSMutableArray *) allDropAreas{
-    if(!_allDropAreas) _allDropAreas=[[NSMutableArray alloc] initWithObjects:mercuryDrop,venusDrop,earthDrop,marsDrop,jupiterDrop,saturnDrop,uranusDrop,neptuneDrop,plutoDrop, nil];
+    if(!_allDropAreas) _allDropAreas=[[NSMutableArray alloc] initWithObjects:mercuryDrop,venusDrop,earthDrop,marsDrop,jupiterDrop,saturnDrop,uranusDrop,neptuneDrop, nil];
     return _allDropAreas;
 }
 
@@ -54,7 +54,7 @@
     self.saturnDropArea = [[NSMutableArray alloc] initWithCapacity:5];
     self.uranusDropArea = [[NSMutableArray alloc] initWithCapacity:5];
     self.neptuneDropArea = [[NSMutableArray alloc] initWithCapacity:5];
-    self.plutoDropArea = [[NSMutableArray alloc] initWithCapacity:5];
+    //self.plutoDropArea = [[NSMutableArray alloc] initWithCapacity:5];
 
 }
 
@@ -141,8 +141,7 @@
         case 5:return @"brownLg.png";
         case 6:return @"pinkLg.png";
         case 7:return @"greenLg.png";
-        case 8:return @"purpleLg.png";
-        case 9:return @"grayLg.png";
+        case 8:return @"grayLg.png";
             
         default:
             return @"An error occured in getPlanetImage";
@@ -160,8 +159,7 @@
         case 5:return @"brown";
         case 6:return @"pink";
         case 7:return @"green";
-        case 8:return @"purple";
-        case 9:return @"gray";
+        case 8:return @"gray";
             
         default:
             return @"An error occured in getPlanetImage";
@@ -180,7 +178,7 @@
         case 6:return self.saturnDropArea;
         case 7:return self.uranusDropArea;
         case 8:return self.neptuneDropArea;
-        case 9:return self.plutoDropArea;
+        //case 9:return self.plutoDropArea;
             
         default:
             return nil;

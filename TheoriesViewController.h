@@ -23,7 +23,7 @@
     __weak IBOutlet UIImageView *saturnDrop;
     __weak IBOutlet UIImageView *uranusDrop;
     __weak IBOutlet UIImageView *neptuneDrop;
-    __weak IBOutlet UIImageView *plutoDrop;
+    //__weak IBOutlet UIImageView *plutoDrop;
 }
 //Created Planets in Drop Area
 @property (strong, nonatomic) NSMutableArray *allDropAreas;
@@ -35,7 +35,7 @@
 @property (strong, nonatomic) NSMutableArray *saturnDropArea;
 @property (strong, nonatomic) NSMutableArray *uranusDropArea;
 @property (strong, nonatomic) NSMutableArray *neptuneDropArea;
-@property (strong, nonatomic) NSMutableArray *plutoDropArea;
+//@property (strong, nonatomic) NSMutableArray *plutoDropArea;
 
 
 @property (weak, nonatomic) IBOutlet UITableView *planetTable;

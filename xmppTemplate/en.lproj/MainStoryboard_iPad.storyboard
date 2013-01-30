@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="12C54" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
@@ -160,7 +160,7 @@
                                     <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="zSX-45-ZFN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3n-qD-utV">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3n-qD-utV">
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
                                 </accessibility>
@@ -181,7 +181,7 @@
                                     <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="g0C-h2-4jp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeN-cq-mPj">
+                            <button opaque="NO" tag="3" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeN-cq-mPj">
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
                                 </accessibility>
@@ -202,7 +202,7 @@
                                     <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="pNH-8Z-41K"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWV-u8-OaV">
+                            <button opaque="NO" tag="4" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWV-u8-OaV">
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
                                 </accessibility>
@@ -223,7 +223,7 @@
                                     <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="2Hj-sv-OC7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dha-Gi-EId">
+                            <button opaque="NO" tag="5" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dha-Gi-EId">
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
                                 </accessibility>
@@ -244,7 +244,7 @@
                                     <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="zM3-0E-Sfo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1KA-lc-zfA">
+                            <button opaque="NO" tag="6" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1KA-lc-zfA">
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
                                 </accessibility>
@@ -265,7 +265,7 @@
                                     <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="ORi-ti-3i7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-aW-M7u">
+                            <button opaque="NO" tag="7" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-aW-M7u">
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
                                 </accessibility>
@@ -286,7 +286,7 @@
                                     <action selector="colorTouchUpInside:forEvent:" destination="EXt-Uq-NcJ" eventType="touchUpInside" id="ZdU-UZ-hEm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="8" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRy-yY-95O">
+                            <button opaque="NO" tag="8" contentMode="center" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRy-yY-95O">
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
                                 </accessibility>
@@ -1500,132 +1500,9 @@
                                     <constraint firstAttribute="height" constant="758" id="kzi-fw-0gk"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CAY-9g-STC">
-                                <subviews>
-                                    <button opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUr-GT-uEX">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="F2j-TC-408"/>
-                                            <constraint firstAttribute="height" constant="80" id="rFS-FM-DSg"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                        <state key="normal" image="brownLg.png">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="KbE-ts-SEh"/>
-                                            <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="Kqc-t5-339"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIU-s9-wfs">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="39s-Xo-e3r"/>
-                                            <constraint firstAttribute="width" constant="80" id="mpA-bP-dbM"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" image="redLg.png">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="ylq-AB-grm"/>
-                                            <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="NAD-2p-1Ci"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G2X-Ia-CtP">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="G4C-Sc-Pvk"/>
-                                            <constraint firstAttribute="height" constant="80" id="LvV-X5-GCc"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" image="p_blue.png">
-                                            <attributedString key="attributedTitle"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="H9o-bx-sEE"/>
-                                            <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="qIm-ZB-AZc"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" clipsSubviews="YES" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdb-Zk-wWD">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="PqN-tp-rsC"/>
-                                            <constraint firstAttribute="height" constant="80" id="RIc-TP-dvi"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" image="greenLg.png">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="rRd-KY-ZsO"/>
-                                            <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="ZB5-bz-Ue2"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3c-Ik-OW7">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="cBH-9K-Ub1"/>
-                                            <constraint firstAttribute="height" constant="80" id="vHX-UN-8rd"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                        <state key="normal" image="p_yellow.png">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="PxJ-eZ-RKO"/>
-                                            <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="q2B-md-hPF"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRV-Qz-zM8">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="Wt0-KH-9B2"/>
-                                            <constraint firstAttribute="width" constant="80" id="eS0-Gl-NHb"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" image="p_purple.png">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="NHq-5e-7h0"/>
-                                            <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="xLZ-Vd-uoL"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.44705882352941173" green="0.49019607843137253" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="vUr-GT-uEX" firstAttribute="leading" secondItem="CAY-9g-STC" secondAttribute="leading" constant="47" id="Eqb-fA-7hl"/>
-                                    <constraint firstItem="vUr-GT-uEX" firstAttribute="top" secondItem="CAY-9g-STC" secondAttribute="top" constant="213" id="Mnk-Xa-Bl4"/>
-                                    <constraint firstItem="G2X-Ia-CtP" firstAttribute="leading" secondItem="CAY-9g-STC" secondAttribute="leading" constant="40" id="UFy-XM-OXt"/>
-                                    <constraint firstAttribute="bottom" secondItem="OIU-s9-wfs" secondAttribute="bottom" constant="94" id="WsQ-pz-jmJ"/>
-                                    <constraint firstItem="G2X-Ia-CtP" firstAttribute="top" secondItem="CAY-9g-STC" secondAttribute="top" constant="77" id="YVi-EX-mKk"/>
-                                    <constraint firstAttribute="trailing" secondItem="dRV-Qz-zM8" secondAttribute="trailing" constant="30" id="j3l-KC-BZX"/>
-                                    <constraint firstItem="OIU-s9-wfs" firstAttribute="leading" secondItem="CAY-9g-STC" secondAttribute="leading" constant="70" id="kqU-4w-a4d"/>
-                                    <constraint firstAttribute="bottom" secondItem="hdb-Zk-wWD" secondAttribute="bottom" constant="214" id="nHE-Ve-V1j"/>
-                                    <constraint firstAttribute="trailing" secondItem="t3c-Ik-OW7" secondAttribute="trailing" constant="13" id="nhy-NQ-YSo"/>
-                                    <constraint firstItem="hdb-Zk-wWD" firstAttribute="leading" secondItem="CAY-9g-STC" secondAttribute="leading" constant="35" id="oX4-BV-6fa"/>
-                                    <constraint firstItem="dRV-Qz-zM8" firstAttribute="top" secondItem="CAY-9g-STC" secondAttribute="top" constant="291" id="pn5-f4-Mzv"/>
-                                    <constraint firstItem="t3c-Ik-OW7" firstAttribute="top" secondItem="CAY-9g-STC" secondAttribute="top" constant="83" id="rCB-ai-14n"/>
-                                </constraints>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ziu-fO-zde">
+                                <color key="backgroundColor" red="0.63921570780000003" green="0.73725491759999995" blue="0.50196081400000003" alpha="1" colorSpace="deviceRGB"/>
                             </view>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="grab colors from here into theory column." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="263" translatesAutoresizingMaskIntoConstraints="NO" id="wGD-IJ-2dV">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="95" id="nzm-p4-USD"/>
-                                    <constraint firstAttribute="width" constant="263" id="uOg-ZO-FSU"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
-                                <color key="textColor" white="0.65328467150000002" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="HelioRoom" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25E-RA-QjR">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Cta-v7-HLm"/>
@@ -1635,7 +1512,221 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTi-aM-OMo">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="grab colors from here into theory column." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="263" translatesAutoresizingMaskIntoConstraints="NO" id="wGD-IJ-2dV">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="nzm-p4-USD"/>
+                                    <constraint firstAttribute="width" constant="263" id="uOg-ZO-FSU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="PLANET" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDk-4U-KBJ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5xD-SW-ks4"/>
+                                    <constraint firstAttribute="width" constant="92" id="Etk-uH-AtN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="THEORIES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfm-q2-OcP">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Z8x-7u-jCA"/>
+                                    <constraint firstAttribute="width" constant="109" id="yqV-wc-uX1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="BgI-c6-1I9">
+                                <color key="backgroundColor" red="0.79607843140000001" green="0.87450980389999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="619" id="CFg-xp-JwE"/>
+                                    <constraint firstAttribute="height" constant="74" id="yr2-vx-B69"/>
+                                </constraints>
+                            </imageView>
+                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="63" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVg-jw-hzy">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="nyb-DF-zLD"/>
+                                    <constraint firstAttribute="height" constant="76" id="sgj-kx-jSK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                <state key="normal" title="Mercury" backgroundImage="planet_bg.png">
+                                    <color key="titleColor" red="0.31279357795275964" green="0.34396229619565222" blue="0.24900883002399837" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="tMp-e2-ukN"/>
+                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="iNW-yp-66B"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="DjR-84-m5z">
+                                <color key="backgroundColor" red="0.79607843140000001" green="0.87450980389999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="r2u-0t-mEh"/>
+                                </constraints>
+                            </imageView>
+                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="59" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTt-i7-BeZ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="Qsi-3Z-LEO"/>
+                                    <constraint firstAttribute="height" constant="76" id="Ub0-xI-9O9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                <state key="normal" title="Venus" backgroundImage="planet_bg.png">
+                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="T6G-Jr-y9f"/>
+                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="HQS-c8-3f0"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="VvB-8e-m4H">
+                                <color key="backgroundColor" red="0.79607843140000001" green="0.87450980389999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="eQ6-NC-37y"/>
+                                </constraints>
+                            </imageView>
+                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="51" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZ0-W2-s2p">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="x16-gK-GfX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                <state key="normal" title="Earth" backgroundImage="planet_bg.png">
+                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="dD9-Y0-Pxf"/>
+                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="8MB-fb-wQq"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="ReQ-DE-b0u">
+                                <color key="backgroundColor" red="0.79607843140000001" green="0.87450980389999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="IJE-n9-pow"/>
+                                </constraints>
+                            </imageView>
+                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="53" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7LZ-Hq-Poi">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="3gS-0M-c8Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                <state key="normal" title="Mars" backgroundImage="planet_bg.png">
+                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="hWM-eg-O6L"/>
+                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="xwr-of-AAk"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="Av2-PR-EBn">
+                                <color key="backgroundColor" red="0.79607843140000001" green="0.87450980389999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="y5o-wF-LIb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" tag="52" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urr-li-W7H">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="Ju2-RR-d8E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                <state key="normal" title="Jupiter" backgroundImage="planet_bg.png">
+                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="w45-pU-Jp4"/>
+                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="BuL-DL-xKg"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="yQm-Yp-MTV">
+                                <color key="backgroundColor" red="0.79607843140000001" green="0.87450980389999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="UY0-2k-HY0"/>
+                                </constraints>
+                            </imageView>
+                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="57" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xt-zR-qMv">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="eUQ-wQ-UTd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                <state key="normal" title="Saturn" backgroundImage="planet_bg.png">
+                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="aej-YW-ERa"/>
+                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="lLG-78-78z"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZN0-fA-9JO">
+                                <color key="backgroundColor" red="0.79607843140000001" green="0.87450980389999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="oou-PM-OMv"/>
+                                </constraints>
+                            </imageView>
+                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="58" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v76-h2-xVe">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="MbT-WN-Z5l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                <state key="normal" title="Uranus" backgroundImage="planet_bg.png">
+                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="OVk-D4-cyn"/>
+                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="Ebt-h6-tUf"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="x7E-Ol-16C">
+                                <color key="backgroundColor" red="0.79607843140000001" green="0.87450980389999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="vnP-0F-otU"/>
+                                </constraints>
+                            </imageView>
+                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="55" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yj-XV-K5t">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="PRh-YQ-iUN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                <state key="normal" title="Neptune" backgroundImage="planet_bg.png">
+                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="xlb-o7-MU7"/>
+                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="JGm-sI-WWa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTi-aM-OMo">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="I72-oi-EVs"/>
                                     <constraint firstAttribute="height" constant="80" id="dVV-kN-ZNK"/>
@@ -1653,9 +1744,103 @@
                                     <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="r1m-hM-ob7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFf-vx-VEi">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRV-Qz-zM8">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="Fd2-W3-7SL"/>
+                                    <constraint firstAttribute="width" constant="80" id="4db-13-eQj"/>
+                                    <constraint firstAttribute="height" constant="80" id="cwo-YY-uE7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="grayLg.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="NHq-5e-7h0"/>
+                                    <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="xLZ-Vd-uoL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUr-GT-uEX">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="hYF-U8-yr9"/>
+                                    <constraint firstAttribute="height" constant="80" id="nAD-6N-HEG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <state key="normal" image="brownLg.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="KbE-ts-SEh"/>
+                                    <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="Kqc-t5-339"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIU-s9-wfs">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="UOn-JD-iBD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="redLg.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="ylq-AB-grm"/>
+                                    <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="NAD-2p-1Ci"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G2X-Ia-CtP">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="492-AC-xta"/>
+                                    <constraint firstAttribute="width" constant="80" id="mLV-E1-arR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="p_blue.png">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                                <connections>
+                                    <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="H9o-bx-sEE"/>
+                                    <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="qIm-ZB-AZc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdb-Zk-wWD">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="iII-6U-faR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="greenLg.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="rRd-KY-ZsO"/>
+                                    <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="ZB5-bz-Ue2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3c-Ik-OW7">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="p1P-Oe-upk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <state key="normal" image="p_yellow.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="planetDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="PxJ-eZ-RKO"/>
+                                    <action selector="planetTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="q2B-md-hPF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFf-vx-VEi">
+                                <constraints>
                                     <constraint firstAttribute="height" constant="80" id="ZW3-bx-Ohi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -1690,282 +1875,94 @@
                                     <action selector="submitButtonPressed:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="Crc-wo-xGl"/>
                                 </connections>
                             </button>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BgI-c6-1I9">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="756" id="Vsb-k8-vdc"/>
-                                    <constraint firstAttribute="height" constant="78" id="vKI-3E-33h"/>
-                                </constraints>
-                            </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VhZ-tw-DUe">
-                                <color key="backgroundColor" red="0.79607843140000001" green="0.87450980389999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="63" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVg-jw-hzy">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="76" id="nyb-DF-zLD"/>
-                                    <constraint firstAttribute="height" constant="76" id="sgj-kx-jSK"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
-                                <state key="normal" title="Mercury" backgroundImage="planet_bg.png">
-                                    <color key="titleColor" red="0.31279357795275964" green="0.34396229619565222" blue="0.24900883002399837" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="tMp-e2-ukN"/>
-                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="iNW-yp-66B"/>
-                                </connections>
-                            </button>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DjR-84-m5z">
-                                <color key="backgroundColor" red="0.79607843140000001" green="0.87450980389999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
-                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="59" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTt-i7-BeZ">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="76" id="Qsi-3Z-LEO"/>
-                                    <constraint firstAttribute="height" constant="76" id="Ub0-xI-9O9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
-                                <state key="normal" title="Venus" backgroundImage="planet_bg.png">
-                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="T6G-Jr-y9f"/>
-                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="HQS-c8-3f0"/>
-                                </connections>
-                            </button>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VvB-8e-m4H">
-                                <color key="backgroundColor" red="0.79607843140000001" green="0.87450980389999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="q6o-7T-edj"/>
-                                </constraints>
-                            </imageView>
-                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="51" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZ0-W2-s2p">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="x16-gK-GfX"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
-                                <state key="normal" title="Earth" backgroundImage="planet_bg.png">
-                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="dD9-Y0-Pxf"/>
-                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="8MB-fb-wQq"/>
-                                </connections>
-                            </button>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="dropBackPlanet.png" translatesAutoresizingMaskIntoConstraints="NO" id="ReQ-DE-b0u">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="741" id="aJb-re-P4A"/>
-                                    <constraint firstAttribute="height" constant="80" id="dIF-Qy-4dh"/>
-                                </constraints>
-                            </imageView>
-                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="53" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7LZ-Hq-Poi">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="3gS-0M-c8Y"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
-                                <state key="normal" title="Mars" backgroundImage="planet_bg.png">
-                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="hWM-eg-O6L"/>
-                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="xwr-of-AAk"/>
-                                </connections>
-                            </button>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="dropBackPlanet.png" translatesAutoresizingMaskIntoConstraints="NO" id="Av2-PR-EBn">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="1Kq-D9-Vrq"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" tag="52" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urr-li-W7H">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="Ju2-RR-d8E"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
-                                <state key="normal" title="Jupiter" backgroundImage="planet_bg.png">
-                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="w45-pU-Jp4"/>
-                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="BuL-DL-xKg"/>
-                                </connections>
-                            </button>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="dropBackPlanet.png" translatesAutoresizingMaskIntoConstraints="NO" id="yQm-Yp-MTV">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="vv6-cA-XWs"/>
-                                </constraints>
-                            </imageView>
-                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="57" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xt-zR-qMv">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="eUQ-wQ-UTd"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
-                                <state key="normal" title="Saturn" backgroundImage="planet_bg.png">
-                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="aej-YW-ERa"/>
-                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="lLG-78-78z"/>
-                                </connections>
-                            </button>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="dropBackPlanet.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZN0-fA-9JO">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="mlL-xm-Irt"/>
-                                </constraints>
-                            </imageView>
-                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="58" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v76-h2-xVe">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="MbT-WN-Z5l"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
-                                <state key="normal" title="Uranus" backgroundImage="planet_bg.png">
-                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="OVk-D4-cyn"/>
-                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="Ebt-h6-tUf"/>
-                                </connections>
-                            </button>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="dropBackPlanet.png" translatesAutoresizingMaskIntoConstraints="NO" id="x7E-Ol-16C">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="vaC-uF-41z"/>
-                                </constraints>
-                            </imageView>
-                            <button autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" tag="55" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yj-XV-K5t">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="PRh-YQ-iUN"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
-                                <state key="normal" title="Neptune" backgroundImage="planet_bg.png">
-                                    <color key="titleColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="nameDragInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchDragInside" id="xlb-o7-MU7"/>
-                                    <action selector="nameTouchUpInside:forEvent:" destination="rk4-gD-Hsk" eventType="touchUpInside" id="JGm-sI-WWa"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="PLANET" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDk-4U-KBJ">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="5xD-SW-ks4"/>
-                                    <constraint firstAttribute="width" constant="92" id="Etk-uH-AtN"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="THEORIES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfm-q2-OcP">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Z8x-7u-jCA"/>
-                                    <constraint firstAttribute="width" constant="109" id="yqV-wc-uX1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.31279357800000002" green="0.34396229620000002" blue="0.24900882999999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="ZN0-fA-9JO" firstAttribute="leading" secondItem="yQm-Yp-MTV" secondAttribute="leading" type="default" id="0Cx-9A-caP"/>
-                            <constraint firstItem="VhZ-tw-DUe" firstAttribute="top" secondItem="gfm-q2-OcP" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="0GL-tc-bk5"/>
-                            <constraint firstItem="urr-li-W7H" firstAttribute="centerY" secondItem="Av2-PR-EBn" secondAttribute="centerY" type="default" id="1Rz-Q9-9N2"/>
+                            <constraint firstItem="ZN0-fA-9JO" firstAttribute="leading" secondItem="yQm-Yp-MTV" secondAttribute="leading" type="default" id="0CO-Ek-rmx"/>
+                            <constraint firstAttribute="trailing" secondItem="lTi-aM-OMo" secondAttribute="trailing" constant="168" id="15A-Z4-GVW"/>
                             <constraint firstItem="25E-RA-QjR" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" constant="6" id="1Vs-vK-q9M"/>
+                            <constraint firstAttribute="bottom" secondItem="v76-h2-xVe" secondAttribute="bottom" constant="111" id="1oL-Lx-DdO"/>
                             <constraint firstItem="7LZ-Hq-Poi" firstAttribute="leading" secondItem="urr-li-W7H" secondAttribute="leading" type="default" id="2la-aO-Oo9"/>
                             <constraint firstItem="1yj-XV-K5t" firstAttribute="leading" secondItem="v76-h2-xVe" secondAttribute="leading" type="default" id="2vq-lr-nvm"/>
-                            <constraint firstItem="CAY-9g-STC" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" constant="757" id="2xb-Uz-a3F"/>
-                            <constraint firstItem="VvB-8e-m4H" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" type="default" id="3Hd-Nx-GNg"/>
+                            <constraint firstItem="OIU-s9-wfs" firstAttribute="leading" secondItem="hdb-Zk-wWD" secondAttribute="leading" type="default" id="4Fr-bi-MPl"/>
                             <constraint firstItem="tDk-4U-KBJ" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" constant="44" id="6PU-um-xGa"/>
-                            <constraint firstItem="yQm-Yp-MTV" firstAttribute="trailing" secondItem="Av2-PR-EBn" secondAttribute="trailing" type="default" id="7dE-hl-ciJ"/>
-                            <constraint firstItem="7LZ-Hq-Poi" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="289" id="7xN-tm-3n0"/>
                             <constraint firstItem="wZ0-W2-s2p" firstAttribute="leading" secondItem="hTt-i7-BeZ" secondAttribute="leading" type="default" id="8KF-Zr-afO"/>
-                            <constraint firstAttribute="bottom" secondItem="v76-h2-xVe" secondAttribute="bottom" constant="88" id="8QF-bi-r2x"/>
-                            <constraint firstAttribute="bottom" secondItem="x7E-Ol-16C" secondAttribute="bottom" constant="3" id="9F3-rA-8bo"/>
+                            <constraint firstItem="x7E-Ol-16C" firstAttribute="trailing" secondItem="ZN0-fA-9JO" secondAttribute="trailing" type="default" id="97C-4G-w3y"/>
+                            <constraint firstItem="ZN0-fA-9JO" firstAttribute="trailing" secondItem="yQm-Yp-MTV" secondAttribute="trailing" type="default" id="9Hq-e2-51h"/>
+                            <constraint firstItem="Ziu-fO-zde" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="10" id="9lS-7m-uGG"/>
                             <constraint firstItem="7Xt-zR-qMv" firstAttribute="leading" secondItem="urr-li-W7H" secondAttribute="leading" type="default" id="9wK-Gg-NG4"/>
-                            <constraint firstItem="x7E-Ol-16C" firstAttribute="trailing" secondItem="ZN0-fA-9JO" secondAttribute="trailing" type="default" id="AMs-Ai-hf4"/>
+                            <constraint firstAttribute="trailing" secondItem="G2X-Ia-CtP" secondAttribute="trailing" constant="163" id="B6a-7x-Ryk"/>
                             <constraint firstItem="v76-h2-xVe" firstAttribute="trailing" secondItem="7Xt-zR-qMv" secondAttribute="trailing" type="default" id="BPw-rK-f30"/>
+                            <constraint firstItem="dRV-Qz-zM8" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="285" id="BVc-fF-8Sz"/>
                             <constraint firstItem="7LZ-Hq-Poi" firstAttribute="trailing" secondItem="urr-li-W7H" secondAttribute="trailing" type="default" id="C6h-EJ-61Z"/>
-                            <constraint firstItem="VhZ-tw-DUe" firstAttribute="centerY" secondItem="BgI-c6-1I9" secondAttribute="centerY" type="default" id="CPH-Vm-2IG"/>
                             <constraint firstItem="ZUA-LC-2n1" firstAttribute="trailing" secondItem="nym-Zg-nRC" secondAttribute="trailing" type="default" id="Cup-1f-k0a"/>
                             <constraint firstItem="25E-RA-QjR" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" type="default" id="DGj-Qy-jpl"/>
-                            <constraint firstItem="hTt-i7-BeZ" firstAttribute="top" secondItem="DjR-84-m5z" secondAttribute="top" type="default" id="Dr8-xw-njh"/>
-                            <constraint firstItem="CAY-9g-STC" firstAttribute="top" secondItem="BgI-c6-1I9" secondAttribute="top" type="default" id="FhX-Rc-DSn"/>
+                            <constraint firstItem="HVg-jw-hzy" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="50" id="Dim-5O-EGq"/>
+                            <constraint firstItem="t3c-Ik-OW7" firstAttribute="trailing" secondItem="ZFf-vx-VEi" secondAttribute="trailing" type="default" id="DlM-FV-o49"/>
+                            <constraint firstItem="hTt-i7-BeZ" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="127" id="EMX-vl-Bo7"/>
                             <constraint firstItem="1yj-XV-K5t" firstAttribute="trailing" secondItem="v76-h2-xVe" secondAttribute="trailing" type="default" id="FuE-Ua-Pms"/>
-                            <constraint firstItem="Av2-PR-EBn" firstAttribute="trailing" secondItem="ReQ-DE-b0u" secondAttribute="trailing" type="default" id="GY6-Nf-4YT"/>
-                            <constraint firstItem="BgI-c6-1I9" firstAttribute="trailing" secondItem="VhZ-tw-DUe" secondAttribute="trailing" type="default" id="GYM-Ii-nby"/>
-                            <constraint firstItem="hTt-i7-BeZ" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="138" id="IIH-zr-eUX"/>
                             <constraint firstItem="7Xt-zR-qMv" firstAttribute="trailing" secondItem="urr-li-W7H" secondAttribute="trailing" type="default" id="MmH-rC-WXZ"/>
                             <constraint firstItem="wZ0-W2-s2p" firstAttribute="leading" secondItem="7LZ-Hq-Poi" secondAttribute="leading" type="default" id="NfZ-UE-Y18"/>
-                            <constraint firstAttribute="trailing" secondItem="ZFf-vx-VEi" secondAttribute="trailing" constant="48" id="NqY-2Y-VLL"/>
-                            <constraint firstAttribute="bottom" secondItem="ZN0-fA-9JO" secondAttribute="bottom" constant="87" id="OQM-eR-Fll"/>
-                            <constraint firstAttribute="bottom" secondItem="1yj-XV-K5t" secondAttribute="bottom" constant="6" id="PYy-np-bWh"/>
-                            <constraint firstItem="v76-h2-xVe" firstAttribute="top" secondItem="yQm-Yp-MTV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Pca-ls-Wgt"/>
-                            <constraint firstItem="VvB-8e-m4H" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="210" id="V9d-5b-Wd2"/>
-                            <constraint firstItem="yQm-Yp-MTV" firstAttribute="top" secondItem="urr-li-W7H" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="VEB-hy-FY6"/>
+                            <constraint firstItem="DjR-84-m5z" firstAttribute="trailing" secondItem="BgI-c6-1I9" secondAttribute="trailing" type="default" id="NiQ-uj-YZY"/>
+                            <constraint firstItem="lTi-aM-OMo" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="96" id="PJr-hq-8Gh"/>
+                            <constraint firstItem="Ziu-fO-zde" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" constant="767" id="PiN-7i-oUF"/>
+                            <constraint firstAttribute="bottom" secondItem="1yj-XV-K5t" secondAttribute="bottom" constant="33" id="QwY-IZ-NkD"/>
+                            <constraint firstItem="lTi-aM-OMo" firstAttribute="trailing" secondItem="t3c-Ik-OW7" secondAttribute="trailing" type="default" id="R6T-X9-f86"/>
+                            <constraint firstItem="7Xt-zR-qMv" firstAttribute="centerY" secondItem="yQm-Yp-MTV" secondAttribute="centerY" type="default" id="Rwv-tm-7wD"/>
+                            <constraint firstItem="gfm-q2-OcP" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="27" id="UfF-EC-Xie"/>
+                            <constraint firstItem="vUr-GT-uEX" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="157" id="Uh0-1s-u3D"/>
                             <constraint firstItem="HVg-jw-hzy" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" constant="31" id="VTv-Sa-zzY"/>
-                            <constraint firstItem="yQm-Yp-MTV" firstAttribute="leading" secondItem="Av2-PR-EBn" secondAttribute="leading" type="default" id="VvD-7H-r7w"/>
+                            <constraint firstItem="VvB-8e-m4H" firstAttribute="trailing" secondItem="DjR-84-m5z" secondAttribute="trailing" type="default" id="VU2-rM-dik"/>
                             <constraint firstItem="gfm-q2-OcP" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" constant="376" id="W1f-ex-m31"/>
                             <constraint firstItem="wZ0-W2-s2p" firstAttribute="trailing" secondItem="hTt-i7-BeZ" secondAttribute="trailing" type="default" id="W9G-Ln-OVi"/>
-                            <constraint firstItem="HVg-jw-hzy" firstAttribute="bottom" secondItem="BgI-c6-1I9" secondAttribute="bottom" type="default" id="XbX-t9-aG8"/>
-                            <constraint firstItem="wZ0-W2-s2p" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="212" id="Xg1-E6-IVw"/>
-                            <constraint firstAttribute="bottom" secondItem="7Xt-zR-qMv" secondAttribute="bottom" constant="173" id="XhU-Uo-x7S"/>
-                            <constraint firstAttribute="trailing" secondItem="wGD-IJ-2dV" secondAttribute="trailing" constant="7" id="Xp6-PJ-dfm"/>
+                            <constraint firstAttribute="bottom" secondItem="hdb-Zk-wWD" secondAttribute="bottom" constant="73" id="WXL-e9-yuf"/>
+                            <constraint firstItem="ReQ-DE-b0u" firstAttribute="trailing" secondItem="VvB-8e-m4H" secondAttribute="trailing" type="default" id="WYg-xe-ex0"/>
+                            <constraint firstAttribute="bottom" secondItem="OIU-s9-wfs" secondAttribute="bottom" constant="196" id="YQH-e8-dNc"/>
+                            <constraint firstAttribute="trailing" secondItem="Ziu-fO-zde" secondAttribute="trailing" constant="7" id="YTw-yQ-But"/>
                             <constraint firstItem="7LZ-Hq-Poi" firstAttribute="baseline" secondItem="wZ0-W2-s2p" secondAttribute="baseline" type="default" id="YXp-r7-gNI"/>
-                            <constraint firstAttribute="trailing" secondItem="lTi-aM-OMo" secondAttribute="trailing" constant="49" id="ZSr-iL-hzo"/>
+                            <constraint firstItem="dRV-Qz-zM8" firstAttribute="leading" secondItem="OIU-s9-wfs" secondAttribute="leading" type="default" id="aR0-sS-5VX"/>
                             <constraint firstItem="ZUA-LC-2n1" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" type="default" id="aZy-bs-2M5"/>
-                            <constraint firstItem="ZN0-fA-9JO" firstAttribute="trailing" secondItem="yQm-Yp-MTV" secondAttribute="trailing" type="default" id="asg-hz-VFj"/>
+                            <constraint firstAttribute="trailing" secondItem="Rqn-5P-0w2" secondAttribute="trailing" constant="120" id="aaU-3a-D8o"/>
+                            <constraint firstAttribute="bottom" secondItem="7Xt-zR-qMv" secondAttribute="bottom" constant="188" id="aeP-4z-KsS"/>
+                            <constraint firstAttribute="bottom" secondItem="urr-li-W7H" secondAttribute="bottom" constant="265" id="aqT-2b-ZMJ"/>
+                            <constraint firstAttribute="trailing" secondItem="dRV-Qz-zM8" secondAttribute="trailing" constant="68" id="bAT-GS-ap2"/>
+                            <constraint firstItem="wGD-IJ-2dV" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" constant="766" id="bZr-s0-pTs"/>
                             <constraint firstItem="v76-h2-xVe" firstAttribute="leading" secondItem="7Xt-zR-qMv" secondAttribute="leading" type="default" id="bkA-2U-dUi"/>
+                            <constraint firstAttribute="trailing" secondItem="vUr-GT-uEX" secondAttribute="trailing" constant="56" id="bx0-yx-BDz"/>
+                            <constraint firstItem="Av2-PR-EBn" firstAttribute="centerY" secondItem="urr-li-W7H" secondAttribute="centerY" type="default" id="ckS-ZT-zxw"/>
                             <constraint firstItem="urr-li-W7H" firstAttribute="baseline" secondItem="7LZ-Hq-Poi" secondAttribute="baseline" type="default" id="dJF-2F-QuK"/>
+                            <constraint firstItem="1yj-XV-K5t" firstAttribute="centerY" secondItem="x7E-Ol-16C" secondAttribute="centerY" type="default" id="dX1-HX-XcQ"/>
                             <constraint firstItem="ZUA-LC-2n1" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="-29" id="eA6-bp-TsY"/>
-                            <constraint firstItem="CAY-9g-STC" firstAttribute="bottom" secondItem="nym-Zg-nRC" secondAttribute="bottom" type="default" id="eQT-UB-5pC"/>
+                            <constraint firstItem="Av2-PR-EBn" firstAttribute="leading" secondItem="ReQ-DE-b0u" secondAttribute="leading" type="default" id="eTE-r1-DI0"/>
                             <constraint firstItem="wGD-IJ-2dV" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" type="default" id="edY-Nw-Uhx"/>
-                            <constraint firstItem="BgI-c6-1I9" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" type="default" id="fq1-36-QCr"/>
-                            <constraint firstItem="x7E-Ol-16C" firstAttribute="leading" secondItem="ZN0-fA-9JO" secondAttribute="leading" type="default" id="fzU-9Q-uHY"/>
-                            <constraint firstAttribute="bottom" secondItem="ZFf-vx-VEi" secondAttribute="bottom" constant="186" id="iwL-zA-PTq"/>
-                            <constraint firstItem="ReQ-DE-b0u" firstAttribute="trailing" secondItem="VvB-8e-m4H" secondAttribute="trailing" type="default" id="kaR-Ce-82l"/>
+                            <constraint firstItem="HVg-jw-hzy" firstAttribute="centerY" secondItem="BgI-c6-1I9" secondAttribute="centerY" type="default" id="ffW-h5-MiT"/>
+                            <constraint firstItem="OIU-s9-wfs" firstAttribute="trailing" secondItem="hdb-Zk-wWD" secondAttribute="trailing" type="default" id="g1j-cp-6xs"/>
+                            <constraint firstItem="7LZ-Hq-Poi" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="281" id="gYM-Ic-Eqb"/>
+                            <constraint firstItem="v76-h2-xVe" firstAttribute="centerY" secondItem="ZN0-fA-9JO" secondAttribute="centerY" type="default" id="gZk-RK-y0b"/>
+                            <constraint firstItem="BgI-c6-1I9" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" constant="135" id="imA-7E-1Pi"/>
+                            <constraint firstAttribute="bottom" secondItem="ZFf-vx-VEi" secondAttribute="bottom" constant="124" id="jzS-ro-RPK"/>
+                            <constraint firstItem="hTt-i7-BeZ" firstAttribute="centerY" secondItem="DjR-84-m5z" secondAttribute="centerY" type="default" id="l7F-eG-oqC"/>
                             <constraint firstItem="tDk-4U-KBJ" firstAttribute="top" secondItem="25E-RA-QjR" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="lGi-Xm-qNQ"/>
-                            <constraint firstAttribute="bottom" secondItem="Rqn-5P-0w2" secondAttribute="bottom" constant="7" id="mIH-fq-vuj"/>
-                            <constraint firstAttribute="trailing" secondItem="Rqn-5P-0w2" secondAttribute="trailing" constant="78" id="mpU-CF-MqS"/>
-                            <constraint firstItem="VhZ-tw-DUe" firstAttribute="trailing" secondItem="DjR-84-m5z" secondAttribute="trailing" type="default" id="mwH-le-1Fm"/>
-                            <constraint firstItem="VhZ-tw-DUe" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" constant="130" id="nlx-Mz-VHK"/>
-                            <constraint firstItem="DjR-84-m5z" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" type="default" id="pFg-Gv-AgE"/>
-                            <constraint firstItem="hTt-i7-BeZ" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" constant="33" id="q7Y-dd-c06"/>
-                            <constraint firstItem="Av2-PR-EBn" firstAttribute="leading" secondItem="ReQ-DE-b0u" secondAttribute="leading" type="default" id="r2E-wG-AhA"/>
+                            <constraint firstItem="VvB-8e-m4H" firstAttribute="centerY" secondItem="wZ0-W2-s2p" secondAttribute="centerY" type="default" id="miT-O5-yHQ"/>
+                            <constraint firstItem="ReQ-DE-b0u" firstAttribute="centerY" secondItem="7LZ-Hq-Poi" secondAttribute="centerY" type="default" id="oOU-xL-6Jo"/>
+                            <constraint firstItem="G2X-Ia-CtP" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="220" id="oRQ-bn-M3O"/>
+                            <constraint firstItem="wZ0-W2-s2p" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="204" id="pBx-WR-gSb"/>
+                            <constraint firstItem="yQm-Yp-MTV" firstAttribute="leading" secondItem="Av2-PR-EBn" secondAttribute="leading" type="default" id="pzw-mW-HPx"/>
+                            <constraint firstItem="hTt-i7-BeZ" firstAttribute="leading" secondItem="nym-Zg-nRC" secondAttribute="leading" constant="33" id="q1L-J7-Pmb"/>
+                            <constraint firstAttribute="bottom" secondItem="t3c-Ik-OW7" secondAttribute="bottom" constant="250" id="qL2-zX-d2a"/>
+                            <constraint firstItem="DjR-84-m5z" firstAttribute="leading" secondItem="BgI-c6-1I9" secondAttribute="leading" type="default" id="qZa-sb-Rmr"/>
+                            <constraint firstItem="t3c-Ik-OW7" firstAttribute="leading" secondItem="ZFf-vx-VEi" secondAttribute="leading" type="default" id="qte-KE-jM8"/>
+                            <constraint firstItem="lTi-aM-OMo" firstAttribute="leading" secondItem="t3c-Ik-OW7" secondAttribute="leading" type="default" id="r3A-F2-9Rk"/>
+                            <constraint firstItem="dRV-Qz-zM8" firstAttribute="trailing" secondItem="OIU-s9-wfs" secondAttribute="trailing" type="default" id="r9d-VK-dBy"/>
                             <constraint firstItem="7LZ-Hq-Poi" firstAttribute="trailing" secondItem="wZ0-W2-s2p" secondAttribute="trailing" type="default" id="sGa-lA-YVi"/>
-                            <constraint firstItem="gfm-q2-OcP" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="27" id="tT3-pD-dDq"/>
-                            <constraint firstItem="BgI-c6-1I9" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="55" id="x9G-PI-CFn"/>
+                            <constraint firstItem="VvB-8e-m4H" firstAttribute="leading" secondItem="DjR-84-m5z" secondAttribute="leading" type="default" id="t0S-2a-eDR"/>
+                            <constraint firstItem="x7E-Ol-16C" firstAttribute="leading" secondItem="ZN0-fA-9JO" secondAttribute="leading" type="default" id="t7N-p1-dse"/>
+                            <constraint firstItem="Ziu-fO-zde" firstAttribute="bottom" secondItem="Rqn-5P-0w2" secondAttribute="bottom" type="default" id="tzb-6c-dof"/>
+                            <constraint firstItem="yQm-Yp-MTV" firstAttribute="trailing" secondItem="Av2-PR-EBn" secondAttribute="trailing" type="default" id="uX1-Fc-Q8N"/>
+                            <constraint firstAttribute="bottom" secondItem="Rqn-5P-0w2" secondAttribute="bottom" constant="7" id="vQt-YY-VzV"/>
                             <constraint firstItem="urr-li-W7H" firstAttribute="baseline" secondItem="hTt-i7-BeZ" secondAttribute="baseline" type="default" id="xD2-Jn-6Wg"/>
-                            <constraint firstItem="ReQ-DE-b0u" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="276" id="ybI-qN-9xO"/>
-                            <constraint firstItem="CAY-9g-STC" firstAttribute="trailing" secondItem="wGD-IJ-2dV" secondAttribute="trailing" type="default" id="yrg-5K-xKv"/>
-                            <constraint firstItem="DjR-84-m5z" firstAttribute="bottom" secondItem="hTt-i7-BeZ" secondAttribute="bottom" type="default" id="yrv-es-bMf"/>
-                            <constraint firstItem="DjR-84-m5z" firstAttribute="trailing" secondItem="VvB-8e-m4H" secondAttribute="trailing" type="default" id="zH1-0R-EEZ"/>
-                            <constraint firstItem="lTi-aM-OMo" firstAttribute="top" secondItem="nym-Zg-nRC" secondAttribute="top" constant="221" id="zrq-wb-fhO"/>
+                            <constraint firstItem="ReQ-DE-b0u" firstAttribute="leading" secondItem="VvB-8e-m4H" secondAttribute="leading" type="default" id="yBI-Dp-zjW"/>
+                            <constraint firstItem="Av2-PR-EBn" firstAttribute="trailing" secondItem="ReQ-DE-b0u" secondAttribute="trailing" type="default" id="z5B-Oo-E4c"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -2236,6 +2233,7 @@
     <resources>
         <image name="backPlanet.png" width="360" height="280"/>
         <image name="background_01.png" width="2048" height="1536"/>
+        <image name="blank.png" width="128" height="128"/>
         <image name="blue.png" width="128" height="128"/>
         <image name="blueLg.png" width="256" height="256"/>
         <image name="brownLg.png" width="256" height="256"/>
@@ -2377,7 +2375,6 @@
                 <relationship kind="outlet" name="mercuryDrop" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="neptuneDrop" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="planetTable" candidateClass="UITableView"/>
-                <relationship kind="outlet" name="plutoDrop" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="saturnDrop" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="uranusDrop" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="venusDrop" candidateClass="UIImageView"/>
