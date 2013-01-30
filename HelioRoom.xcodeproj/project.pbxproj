@@ -191,6 +191,18 @@
 		84F352D216507EAA00DEB764 /* pinkLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F352CC16507EAA00DEB764 /* pinkLg.png */; };
 		84F352D316507EAA00DEB764 /* purpleLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F352CD16507EAA00DEB764 /* purpleLg.png */; };
 		84F9826E16B43F0A00804BE4 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9826D16B43F0A00804BE4 /* OrderViewController.m */; };
+		852DCB1516B87AA5002D4B50 /* planet_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB1416B87AA5002D4B50 /* planet_bg.png */; };
+		852DCB3216B8895F002D4B50 /* p_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB2A16B8895F002D4B50 /* p_blue.png */; };
+		852DCB3316B8895F002D4B50 /* p_brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB2B16B8895F002D4B50 /* p_brown.png */; };
+		852DCB3416B8895F002D4B50 /* p_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB2C16B8895F002D4B50 /* p_green.png */; };
+		852DCB3516B8895F002D4B50 /* p_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB2D16B8895F002D4B50 /* p_orange.png */; };
+		852DCB3616B8895F002D4B50 /* p_pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB2E16B8895F002D4B50 /* p_pink.png */; };
+		852DCB3716B8895F002D4B50 /* p_purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB2F16B8895F002D4B50 /* p_purple.png */; };
+		852DCB3816B8895F002D4B50 /* p_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB3016B8895F002D4B50 /* p_red.png */; };
+		852DCB3916B8895F002D4B50 /* p_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB3116B8895F002D4B50 /* p_yellow.png */; };
+		85398E6316B8495C002CD478 /* shape_cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 85398E6216B8495C002CD478 /* shape_cloud.png */; };
+		85398E6516B84BAF002CD478 /* background_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 85398E6416B84BAF002CD478 /* background_01.png */; };
+		855A893E16B8327C002C8FB7 /* Helio_Icon2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 855A893D16B8327C002C8FB7 /* Helio_Icon2X.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -427,6 +439,18 @@
 		84F352CD16507EAA00DEB764 /* purpleLg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleLg.png; sourceTree = "<group>"; };
 		84F9826C16B43F0A00804BE4 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = SOURCE_ROOT; };
 		84F9826D16B43F0A00804BE4 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = SOURCE_ROOT; };
+		852DCB1416B87AA5002D4B50 /* planet_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = planet_bg.png; path = Planets/planet_bg.png; sourceTree = "<group>"; };
+		852DCB2A16B8895F002D4B50 /* p_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_blue.png; sourceTree = "<group>"; };
+		852DCB2B16B8895F002D4B50 /* p_brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_brown.png; sourceTree = "<group>"; };
+		852DCB2C16B8895F002D4B50 /* p_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_green.png; sourceTree = "<group>"; };
+		852DCB2D16B8895F002D4B50 /* p_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_orange.png; sourceTree = "<group>"; };
+		852DCB2E16B8895F002D4B50 /* p_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_pink.png; sourceTree = "<group>"; };
+		852DCB2F16B8895F002D4B50 /* p_purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_purple.png; sourceTree = "<group>"; };
+		852DCB3016B8895F002D4B50 /* p_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_red.png; sourceTree = "<group>"; };
+		852DCB3116B8895F002D4B50 /* p_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_yellow.png; sourceTree = "<group>"; };
+		85398E6216B8495C002CD478 /* shape_cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shape_cloud.png; path = Planets/shape_cloud.png; sourceTree = "<group>"; };
+		85398E6416B84BAF002CD478 /* background_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_01.png; sourceTree = "<group>"; };
+		855A893D16B8327C002C8FB7 /* Helio_Icon2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Helio_Icon2X.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -453,6 +477,7 @@
 		700C3A42160427DA005A9E34 = {
 			isa = PBXGroup;
 			children = (
+				855A893D16B8327C002C8FB7 /* Helio_Icon2X.png */,
 				8401631B16499209002F9F9C /* icon_144.png */,
 				700C3B3216042F52005A9E34 /* XMPPFramework.h */,
 				84AECEB316856C420070B419 /* HelioRoom */,
@@ -856,6 +881,14 @@
 		84D5493C16229A5E0075940E /* Planets */ = {
 			isa = PBXGroup;
 			children = (
+				852DCB2A16B8895F002D4B50 /* p_blue.png */,
+				852DCB2B16B8895F002D4B50 /* p_brown.png */,
+				852DCB2C16B8895F002D4B50 /* p_green.png */,
+				852DCB2D16B8895F002D4B50 /* p_orange.png */,
+				852DCB2E16B8895F002D4B50 /* p_pink.png */,
+				852DCB2F16B8895F002D4B50 /* p_purple.png */,
+				852DCB3016B8895F002D4B50 /* p_red.png */,
+				852DCB3116B8895F002D4B50 /* p_yellow.png */,
 				84F352C816507EAA00DEB764 /* brownLg.png */,
 				84F352C916507EAA00DEB764 /* grayLg.png */,
 				84F352CA16507EAA00DEB764 /* greenLg.png */,
@@ -1009,6 +1042,9 @@
 		84EB1234161F688000CECA43 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				852DCB1416B87AA5002D4B50 /* planet_bg.png */,
+				85398E6416B84BAF002CD478 /* background_01.png */,
+				85398E6216B8495C002CD478 /* shape_cloud.png */,
 				84CB9536164C23CF00D01390 /* submitButtonText.png */,
 				84020657164C3E3D00010A99 /* brown.png */,
 				84020658164C3E3D00010A99 /* gray.png */,
@@ -1139,6 +1175,18 @@
 				84F352D116507EAA00DEB764 /* orangeLg.png in Resources */,
 				84F352D216507EAA00DEB764 /* pinkLg.png in Resources */,
 				84F352D316507EAA00DEB764 /* purpleLg.png in Resources */,
+				855A893E16B8327C002C8FB7 /* Helio_Icon2X.png in Resources */,
+				85398E6316B8495C002CD478 /* shape_cloud.png in Resources */,
+				85398E6516B84BAF002CD478 /* background_01.png in Resources */,
+				852DCB1516B87AA5002D4B50 /* planet_bg.png in Resources */,
+				852DCB3216B8895F002D4B50 /* p_blue.png in Resources */,
+				852DCB3316B8895F002D4B50 /* p_brown.png in Resources */,
+				852DCB3416B8895F002D4B50 /* p_green.png in Resources */,
+				852DCB3516B8895F002D4B50 /* p_orange.png in Resources */,
+				852DCB3616B8895F002D4B50 /* p_pink.png in Resources */,
+				852DCB3716B8895F002D4B50 /* p_purple.png in Resources */,
+				852DCB3816B8895F002D4B50 /* p_red.png in Resources */,
+				852DCB3916B8895F002D4B50 /* p_yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
