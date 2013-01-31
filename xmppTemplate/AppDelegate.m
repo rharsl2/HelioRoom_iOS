@@ -47,8 +47,8 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 
 NSString *const kXMPPmyJID = @"kXMPPmyJID";
 NSString *const kXMPPmyPassword = @"kXMPPmyPassword";
-NSString *const xmppServer = @"rharsley-laptop.local"; //set to name address of your xmppServer OR use below
-//NSString *const xmppServer = @"169.254.255.196";  //set to ip address of your xmppServer
+//NSString *const xmppServer = @"rharsley-laptop.local"; //set to name address of your xmppServer OR use below
+NSString *const xmppServer = @"169.254.225.196";  //set to ip address of your xmppServer
 NSString *const chatLocation = @"helioRoom@conference.rharsley"; //set to location of chat room
 
 

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @protocol OrderReasonDelegate
-- (void)reasonSelected:(NSString *)reason;
+- (void)reasonSelected:(NSString *)reason:(NSString *) front:(NSString *)back;
 @end
 
 @interface OrderReasonViewController : UITableViewController{

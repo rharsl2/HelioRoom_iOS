@@ -117,16 +117,16 @@
 - (IBAction)createdPlanetTouchUpInside:(UIButton *)sender forEvent:(UIEvent *)event {
     //Get previous reason popover and display.
     [[self appDelegate] writeDebugMessage:@"created planet touch up inside event"];
-    
-    if([self getCurrentArea:sender :event]== -1){//outside drop areas
-        //remove planet from drop area and view
-        [sender removeFromSuperview];
+//    
+//    if([self getCurrentArea:sender :event]== -1){//outside drop areas
+//        //remove planet from drop area and view
+//        [sender removeFromSuperview];
         [self.view viewWithTag:[self getTag:sender.currentTitle]].userInteractionEnabled=YES;
         [self.view viewWithTag:[self getTag:sender.currentTitle]].alpha=1;
-    }else{
-        [self.view addSubview:sender];//reload view
-        //sender restore to original place
-    }
+//    }else{
+//        [self.view addSubview:sender];//reload view
+//        //sender restore to original place
+//    }
     
 }
 //HELPER FUNCTIONS
@@ -141,25 +141,27 @@
      [self.reasonPopover presentPopoverFromRect:created.frame inView:self.view permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
      
  }
--(int)getCurrentArea:(UIButton *)sender:(UIEvent *)event{
-    for (UIImageView *dropArea in self.allDropAreas){
-        CGPoint pointInDropView = [[[event allTouches] anyObject] locationInView:dropArea];
-        int i=1;
-        if ([dropArea pointInside:pointInDropView withEvent:nil]) {
-            NSMutableArray * dropArea = [self getDropArea:i];
-            for (UIButton *createdPlanet in dropArea){
-                if([createdPlanet.titleLabel.text isEqualToString:sender.titleLabel.text]){
-                    //color already present
-                    [[self appDelegate] writeDebugMessage:@"dropped in same drop area"];
-                    //TODO: What about others classmates count
-                    return i;
-                }
-            }
-        }
-        i++;
-    }
-    return -1;
-}
+//-(int)getCurrentArea:(UIButton *)sender:(UIEvent *)event{
+//    for (UIImageView *dropArea in self.allDropAreas){
+//        CGPoint pointInDropView = [[[event allTouches] anyObject] locationInView:dropArea];
+//        int i=1;
+//        if ([dropArea pointInside:pointInDropView withEvent:nil]) {
+//            NSMutableArray * dropArea = [self getDropArea:i];
+//            for (UIButton *createdPlanet in dropArea){
+//                if([createdPlanet.titleLabel.text isEqualToString:sender.titleLabel.text]){
+//                    //color already present
+//                    [[self appDelegate] writeDebugMessage:@"dropped in same drop area"];
+//                    //TODO: What about others classmates count
+//                    return i;
+//                }
+//            }
+//            NSLog(@"in area i=%d",i);
+//            return i;
+//        }
+//        i++;
+//    }
+//    return -1;
+//}
 -(NSString *)getPlanetImage:(NSInteger)tag{
     int tagInt =tag;
     //printf("tag is %d\n",tagInt);

@@ -8,9 +8,10 @@
 
 #import "OrderViewController.h"
 #import "AppDelegate.h"
+#import "PlanetObservationModel.h"
 
 @interface OrderViewController ()
-
+@property (nonatomic,strong) PlanetObservationModel *planetModel;
 @end
 
 @implementation OrderViewController
@@ -25,6 +26,8 @@
 @synthesize pinkDropArea = _pinkDropArea;
 @synthesize greenDropArea = _greenDropArea;
 @synthesize grayDropArea = _grayDropArea;
+
+@synthesize planetModel= _planetModel;
 
 NSString * mostRecentDropColor=@"";
 
@@ -295,8 +298,9 @@ NSString * mostRecentDropColor=@"";
     [self.reasonPopover dismissPopoverAnimated:YES];
 }
 
-- (void)reasonSelected:(NSString *)reason {
+- (void)reasonSelected:(NSString *)reason:(NSString *) created:(NSString *)destination {
     //TODO Submit reason
+    [[self planetModel] isInFrontOf:created :destination];
     [self.reasonPopover dismissPopoverAnimated:YES];
 }
 

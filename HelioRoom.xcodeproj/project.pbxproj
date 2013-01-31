@@ -116,6 +116,14 @@
 		84020661164C3E3D00010A99 /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8402065B164C3E3D00010A99 /* pink.png */; };
 		84020662164C3E3D00010A99 /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 8402065C164C3E3D00010A99 /* purple.png */; };
 		84020667164C54DD00010A99 /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84020665164C54DD00010A99 /* greyButton.png */; };
+		84020D2016B9FC9A008F8C55 /* bcon.c in Sources */ = {isa = PBXBuildFile; fileRef = 84020D0F16B9FC9A008F8C55 /* bcon.c */; };
+		84020D2116B9FC9A008F8C55 /* bson.c in Sources */ = {isa = PBXBuildFile; fileRef = 84020D1116B9FC9A008F8C55 /* bson.c */; };
+		84020D2216B9FC9A008F8C55 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 84020D1316B9FC9A008F8C55 /* encoding.c */; };
+		84020D2316B9FC9A008F8C55 /* env_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 84020D1516B9FC9A008F8C55 /* env_posix.c */; };
+		84020D2616B9FC9A008F8C55 /* gridfs.c in Sources */ = {isa = PBXBuildFile; fileRef = 84020D1916B9FC9A008F8C55 /* gridfs.c */; };
+		84020D2716B9FC9A008F8C55 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 84020D1B16B9FC9A008F8C55 /* md5.c */; };
+		84020D2816B9FC9A008F8C55 /* mongo.c in Sources */ = {isa = PBXBuildFile; fileRef = 84020D1D16B9FC9A008F8C55 /* mongo.c */; };
+		84020D2916B9FC9A008F8C55 /* numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 84020D1F16B9FC9A008F8C55 /* numbers.c */; };
 		84137FD91648421800045E7E /* ChoosePlanetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84137FD81648421800045E7E /* ChoosePlanetViewController.m */; };
 		84137FDC164861D600045E7E /* tab_planetOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = 84137FDB164861D600045E7E /* tab_planetOrder.png */; };
 		84137FDE164862F000045E7E /* tab_planetIdentify.png in Resources */ = {isa = PBXBuildFile; fileRef = 84137FDD164862F000045E7E /* tab_planetIdentify.png */; };
@@ -129,14 +137,6 @@
 		8474EC5E16B45CEB00FA0EA7 /* OrderReasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8474EC5D16B45CEB00FA0EA7 /* OrderReasonViewController.m */; };
 		849D0AEB16B436F200F8002D /* TheoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0AE816B436F200F8002D /* TheoriesViewController.m */; };
 		849D0AEC16B436F200F8002D /* TheoryReasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0AEA16B436F200F8002D /* TheoryReasonViewController.m */; };
-		849DDE5116169EEB00CA5B95 /* bcon.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4016169EEB00CA5B95 /* bcon.c */; };
-		849DDE5216169EEB00CA5B95 /* bson.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4216169EEB00CA5B95 /* bson.c */; };
-		849DDE5316169EEB00CA5B95 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4416169EEB00CA5B95 /* encoding.c */; };
-		849DDE5416169EEB00CA5B95 /* env_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4716169EEB00CA5B95 /* env_posix.c */; };
-		849DDE5716169EEB00CA5B95 /* gridfs.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4A16169EEB00CA5B95 /* gridfs.c */; };
-		849DDE5816169EEB00CA5B95 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4C16169EEB00CA5B95 /* md5.c */; };
-		849DDE5916169EEB00CA5B95 /* mongo.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4E16169EEB00CA5B95 /* mongo.c */; };
-		849DDE5A16169EEB00CA5B95 /* numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE5016169EEB00CA5B95 /* numbers.c */; };
 		84CB9535164C1BA900D01390 /* grabPlanet.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CB9534164C1BA900D01390 /* grabPlanet.png */; };
 		84CB9537164C23CF00D01390 /* submitButtonText.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CB9536164C23CF00D01390 /* submitButtonText.png */; };
 		84CC866D162341B0004484D7 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC866C162341B0004484D7 /* blank.png */; };
@@ -150,6 +150,10 @@
 		84D5494216229A5E0075940E /* blueLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5493E16229A5E0075940E /* blueLg.png */; };
 		84D5494316229A5E0075940E /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5493F16229A5E0075940E /* yellow.png */; };
 		84D5494416229A5E0075940E /* yellowLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5494016229A5E0075940E /* yellowLg.png */; };
+		84D680AF16B9BADF001BC26A /* HelioRoomModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D680AD16B9BADF001BC26A /* HelioRoomModel.xcdatamodeld */; };
+		84D680B316B9C36B001BC26A /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D680B216B9C36B001BC26A /* Order.m */; };
+		84D680B616B9C36B001BC26A /* TheoryReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D680B516B9C36B001BC26A /* TheoryReason.m */; };
+		84D680B916B9C36B001BC26A /* OrderReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D680B816B9C36B001BC26A /* OrderReason.m */; };
 		84E0E0201623C42200058BBC /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84E0E01F1623C42200058BBC /* bg.jpeg */; };
 		84E0E0231623DC4B00058BBC /* spaceshipSubmitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0E0221623DC4B00058BBC /* spaceshipSubmitButton.png */; };
 		84E0E0251623E12900058BBC /* isInFrontOf.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0E0241623E12900058BBC /* isInFrontOf.png */; };
@@ -321,6 +325,21 @@
 		8402065B164C3E3D00010A99 /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pink.png; path = Planets/pink.png; sourceTree = "<group>"; };
 		8402065C164C3E3D00010A99 /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purple.png; path = Planets/purple.png; sourceTree = "<group>"; };
 		84020665164C54DD00010A99 /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButton.png; sourceTree = "<group>"; };
+		84020D0F16B9FC9A008F8C55 /* bcon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bcon.c; sourceTree = "<group>"; };
+		84020D1016B9FC9A008F8C55 /* bcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bcon.h; sourceTree = "<group>"; };
+		84020D1116B9FC9A008F8C55 /* bson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bson.c; sourceTree = "<group>"; };
+		84020D1216B9FC9A008F8C55 /* bson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bson.h; sourceTree = "<group>"; };
+		84020D1316B9FC9A008F8C55 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
+		84020D1416B9FC9A008F8C55 /* encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
+		84020D1516B9FC9A008F8C55 /* env_posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = env_posix.c; sourceTree = "<group>"; };
+		84020D1816B9FC9A008F8C55 /* env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env.h; sourceTree = "<group>"; };
+		84020D1916B9FC9A008F8C55 /* gridfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gridfs.c; sourceTree = "<group>"; };
+		84020D1A16B9FC9A008F8C55 /* gridfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridfs.h; sourceTree = "<group>"; };
+		84020D1B16B9FC9A008F8C55 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		84020D1C16B9FC9A008F8C55 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		84020D1D16B9FC9A008F8C55 /* mongo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mongo.c; sourceTree = "<group>"; };
+		84020D1E16B9FC9A008F8C55 /* mongo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mongo.h; sourceTree = "<group>"; };
+		84020D1F16B9FC9A008F8C55 /* numbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = numbers.c; sourceTree = "<group>"; };
 		84137FD71648421800045E7E /* ChoosePlanetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChoosePlanetViewController.h; path = xmppTemplate/ChoosePlanetViewController.h; sourceTree = "<group>"; };
 		84137FD81648421800045E7E /* ChoosePlanetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChoosePlanetViewController.m; path = xmppTemplate/ChoosePlanetViewController.m; sourceTree = "<group>"; };
 		84137FDB164861D600045E7E /* tab_planetOrder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_planetOrder.png; sourceTree = "<group>"; };
@@ -339,21 +358,6 @@
 		849D0AE816B436F200F8002D /* TheoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheoriesViewController.m; sourceTree = "<group>"; };
 		849D0AE916B436F200F8002D /* TheoryReasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheoryReasonViewController.h; sourceTree = "<group>"; };
 		849D0AEA16B436F200F8002D /* TheoryReasonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheoryReasonViewController.m; sourceTree = "<group>"; };
-		849DDE4016169EEB00CA5B95 /* bcon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bcon.c; sourceTree = "<group>"; };
-		849DDE4116169EEB00CA5B95 /* bcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bcon.h; sourceTree = "<group>"; };
-		849DDE4216169EEB00CA5B95 /* bson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bson.c; sourceTree = "<group>"; };
-		849DDE4316169EEB00CA5B95 /* bson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bson.h; sourceTree = "<group>"; };
-		849DDE4416169EEB00CA5B95 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
-		849DDE4516169EEB00CA5B95 /* encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
-		849DDE4616169EEB00CA5B95 /* env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env.h; sourceTree = "<group>"; };
-		849DDE4716169EEB00CA5B95 /* env_posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = env_posix.c; sourceTree = "<group>"; };
-		849DDE4A16169EEB00CA5B95 /* gridfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gridfs.c; sourceTree = "<group>"; };
-		849DDE4B16169EEB00CA5B95 /* gridfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridfs.h; sourceTree = "<group>"; };
-		849DDE4C16169EEB00CA5B95 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
-		849DDE4D16169EEB00CA5B95 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
-		849DDE4E16169EEB00CA5B95 /* mongo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mongo.c; sourceTree = "<group>"; };
-		849DDE4F16169EEB00CA5B95 /* mongo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mongo.h; sourceTree = "<group>"; };
-		849DDE5016169EEB00CA5B95 /* numbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = numbers.c; sourceTree = "<group>"; };
 		84CB9534164C1BA900D01390 /* grabPlanet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grabPlanet.png; sourceTree = "<group>"; };
 		84CB9536164C23CF00D01390 /* submitButtonText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitButtonText.png; sourceTree = "<group>"; };
 		84CC866C162341B0004484D7 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
@@ -367,6 +371,13 @@
 		84D5493E16229A5E0075940E /* blueLg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueLg.png; sourceTree = "<group>"; };
 		84D5493F16229A5E0075940E /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
 		84D5494016229A5E0075940E /* yellowLg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowLg.png; sourceTree = "<group>"; };
+		84D680AE16B9BADF001BC26A /* HelioRoomModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelioRoomModel.xcdatamodel; sourceTree = "<group>"; };
+		84D680B116B9C36B001BC26A /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		84D680B216B9C36B001BC26A /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		84D680B416B9C36B001BC26A /* TheoryReason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheoryReason.h; sourceTree = "<group>"; };
+		84D680B516B9C36B001BC26A /* TheoryReason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheoryReason.m; sourceTree = "<group>"; };
+		84D680B716B9C36B001BC26A /* OrderReason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderReason.h; sourceTree = "<group>"; };
+		84D680B816B9C36B001BC26A /* OrderReason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderReason.m; sourceTree = "<group>"; };
 		84E0E01F1623C42200058BBC /* bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpeg; sourceTree = "<group>"; };
 		84E0E0221623DC4B00058BBC /* spaceshipSubmitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceshipSubmitButton.png; sourceTree = "<group>"; };
 		84E0E0241623E12900058BBC /* isInFrontOf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isInFrontOf.png; sourceTree = "<group>"; };
@@ -477,6 +488,13 @@
 		700C3A42160427DA005A9E34 = {
 			isa = PBXGroup;
 			children = (
+				84D680AD16B9BADF001BC26A /* HelioRoomModel.xcdatamodeld */,
+				84D680B716B9C36B001BC26A /* OrderReason.h */,
+				84D680B816B9C36B001BC26A /* OrderReason.m */,
+				84D680B416B9C36B001BC26A /* TheoryReason.h */,
+				84D680B516B9C36B001BC26A /* TheoryReason.m */,
+				84D680B116B9C36B001BC26A /* Order.h */,
+				84D680B216B9C36B001BC26A /* Order.m */,
 				855A893D16B8327C002C8FB7 /* Helio_Icon2X.png */,
 				8401631B16499209002F9F9C /* icon_144.png */,
 				700C3B3216042F52005A9E34 /* XMPPFramework.h */,
@@ -837,21 +855,21 @@
 		849DDE3F16169EEB00CA5B95 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				849DDE4016169EEB00CA5B95 /* bcon.c */,
-				849DDE4116169EEB00CA5B95 /* bcon.h */,
-				849DDE4216169EEB00CA5B95 /* bson.c */,
-				849DDE4316169EEB00CA5B95 /* bson.h */,
-				849DDE4416169EEB00CA5B95 /* encoding.c */,
-				849DDE4516169EEB00CA5B95 /* encoding.h */,
-				849DDE4616169EEB00CA5B95 /* env.h */,
-				849DDE4716169EEB00CA5B95 /* env_posix.c */,
-				849DDE4A16169EEB00CA5B95 /* gridfs.c */,
-				849DDE4B16169EEB00CA5B95 /* gridfs.h */,
-				849DDE4C16169EEB00CA5B95 /* md5.c */,
-				849DDE4D16169EEB00CA5B95 /* md5.h */,
-				849DDE4E16169EEB00CA5B95 /* mongo.c */,
-				849DDE4F16169EEB00CA5B95 /* mongo.h */,
-				849DDE5016169EEB00CA5B95 /* numbers.c */,
+				84020D0F16B9FC9A008F8C55 /* bcon.c */,
+				84020D1016B9FC9A008F8C55 /* bcon.h */,
+				84020D1116B9FC9A008F8C55 /* bson.c */,
+				84020D1216B9FC9A008F8C55 /* bson.h */,
+				84020D1316B9FC9A008F8C55 /* encoding.c */,
+				84020D1416B9FC9A008F8C55 /* encoding.h */,
+				84020D1516B9FC9A008F8C55 /* env_posix.c */,
+				84020D1816B9FC9A008F8C55 /* env.h */,
+				84020D1916B9FC9A008F8C55 /* gridfs.c */,
+				84020D1A16B9FC9A008F8C55 /* gridfs.h */,
+				84020D1B16B9FC9A008F8C55 /* md5.c */,
+				84020D1C16B9FC9A008F8C55 /* md5.h */,
+				84020D1D16B9FC9A008F8C55 /* mongo.c */,
+				84020D1E16B9FC9A008F8C55 /* mongo.h */,
+				84020D1F16B9FC9A008F8C55 /* numbers.c */,
 			);
 			name = src;
 			path = "../../iOS Resources/mongodb-mongo-c-driver-aee9ff2/src";
@@ -1309,19 +1327,23 @@
 				84EA797D1615493100EC67A2 /* NSDate+XMPPDateTimeProfiles.m in Sources */,
 				84EA797E1615493100EC67A2 /* XMPPDateTimeProfiles.m in Sources */,
 				84EA79821615493900EC67A2 /* XMPPElement+Delay.m in Sources */,
-				849DDE5116169EEB00CA5B95 /* bcon.c in Sources */,
-				849DDE5216169EEB00CA5B95 /* bson.c in Sources */,
-				849DDE5316169EEB00CA5B95 /* encoding.c in Sources */,
-				849DDE5416169EEB00CA5B95 /* env_posix.c in Sources */,
-				849DDE5716169EEB00CA5B95 /* gridfs.c in Sources */,
-				849DDE5816169EEB00CA5B95 /* md5.c in Sources */,
-				849DDE5916169EEB00CA5B95 /* mongo.c in Sources */,
-				849DDE5A16169EEB00CA5B95 /* numbers.c in Sources */,
 				84137FD91648421800045E7E /* ChoosePlanetViewController.m in Sources */,
 				849D0AEB16B436F200F8002D /* TheoriesViewController.m in Sources */,
 				849D0AEC16B436F200F8002D /* TheoryReasonViewController.m in Sources */,
 				84F9826E16B43F0A00804BE4 /* OrderViewController.m in Sources */,
 				8474EC5E16B45CEB00FA0EA7 /* OrderReasonViewController.m in Sources */,
+				84D680AF16B9BADF001BC26A /* HelioRoomModel.xcdatamodeld in Sources */,
+				84D680B316B9C36B001BC26A /* Order.m in Sources */,
+				84D680B616B9C36B001BC26A /* TheoryReason.m in Sources */,
+				84D680B916B9C36B001BC26A /* OrderReason.m in Sources */,
+				84020D2016B9FC9A008F8C55 /* bcon.c in Sources */,
+				84020D2116B9FC9A008F8C55 /* bson.c in Sources */,
+				84020D2216B9FC9A008F8C55 /* encoding.c in Sources */,
+				84020D2316B9FC9A008F8C55 /* env_posix.c in Sources */,
+				84020D2616B9FC9A008F8C55 /* gridfs.c in Sources */,
+				84020D2716B9FC9A008F8C55 /* md5.c in Sources */,
+				84020D2816B9FC9A008F8C55 /* mongo.c in Sources */,
+				84020D2916B9FC9A008F8C55 /* numbers.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1468,6 +1490,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		84D680AD16B9BADF001BC26A /* HelioRoomModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84D680AE16B9BADF001BC26A /* HelioRoomModel.xcdatamodel */,
+			);
+			currentVersion = 84D680AE16B9BADF001BC26A /* HelioRoomModel.xcdatamodel */;
+			path = HelioRoomModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		84EA79481615492900EC67A2 /* XMPPRoom.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

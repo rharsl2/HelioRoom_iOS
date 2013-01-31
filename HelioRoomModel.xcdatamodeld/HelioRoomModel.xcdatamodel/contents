@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="12C54" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Order" representedClassName="Order" syncable="YES">
+        <attribute name="backColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="frontColor" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="reasoning" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="OrderReason" inverseName="ordering" inverseEntity="OrderReason" syncable="YES"/>
+    </entity>
+    <entity name="OrderReason" representedClassName="OrderReason" syncable="YES">
+        <attribute name="reason" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ordering" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Order" inverseName="reasoning" inverseEntity="Order" syncable="YES"/>
+    </entity>
+    <entity name="TheoryReason" representedClassName="TheoryReason" syncable="YES">
+        <attribute name="reason" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TheoryReason" positionX="387" positionY="63" width="128" height="58"/>
+        <element name="OrderReason" positionX="232" positionY="201" width="128" height="73"/>
+        <element name="Order" positionX="63" positionY="186" width="128" height="88"/>
+    </elements>
+</model>

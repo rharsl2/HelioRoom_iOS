@@ -17,6 +17,8 @@
 @synthesize reasons = _reasons;
 @synthesize delegate = _delegate;
 
+NSString * createdColor;
+NSString * destinationColor;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -124,7 +126,7 @@
 {
     if (_delegate != nil) {
         NSString *reason = [_reasons objectAtIndex:indexPath.row];
-        [_delegate reasonSelected:reason];
+        [_delegate reasonSelected:reason:createdColor:destinationColor];
     }
     
     
@@ -143,8 +145,11 @@
     [_reasons addObject:reason2];
     [_reasons addObject:reason3];
     
+    createdColor=created;
+    destinationColor=destination;
     [self.tableView reloadData];
     [self.view setNeedsDisplay];
 }
+
 
 @end
