@@ -45,11 +45,12 @@ static const int ddLogLevel = LOG_LEVEL_INFO;
 @synthesize tabBarController = _tabBarController;
 @synthesize successfullLogin;
 
-NSString *const kXMPPmyJID = @"kXMPPmyJID";
-NSString *const kXMPPmyPassword = @"kXMPPmyPassword";
-//NSString *const xmppServer = @"rharsley-laptop.local"; //set to name address of your xmppServer OR use below
-NSString *const xmppServer = @"169.254.225.196";  //set to ip address of your xmppServer
-NSString *const chatLocation = @"helioRoom@conference.rharsley"; //set to location of chat room
+NSString *const kXMPPmyJID = @"kXMPPmyJID"; //DO NOT CHANGE
+NSString *const kXMPPmyPassword = @"kXMPPmyPassword"; //DO NOT CHANGE
+
+NSString *const xmppServer = @"ltg.evl.uic.edu"; //set to name address of your xmppServer OR use below
+//NSString *const xmppServer = @"169.254.225.196";  //set to ip address of your xmppServer
+NSString *const chatLocation = @"helio-sp-13@conference.ltg.evl.uic.edu"; //set to location of chat room
 
 
 
@@ -640,6 +641,36 @@ NSString *const chatLocation = @"helioRoom@conference.rharsley"; //set to locati
     NSXMLElement *message = [NSXMLElement elementWithName:@"identify"];
     [message addAttributeWithName:@"color" stringValue:planetColor];
     [message addAttributeWithName:@"name" stringValue:planetName];
+    [message addAttributeWithName:@"user" stringValue:[self getLoggedInUser]];
+    
+    
+    [xmppRoom sendMessage:[message XMLString]];
+    
+    //TODO introduce some delay/animated gif??
+    //TODO check whether sent?
+    return 1;
+    
+}
+- (int)orderReasonGroupMessage:(NSString *)reason{
+    [self goOnline];
+    DDLogError(@"Sending the orderReason group message. Reason: %@",reason);
+    NSXMLElement *message = [NSXMLElement elementWithName:@"orderReason"];
+    [message addAttributeWithName:@"reason" stringValue:reason];
+    [message addAttributeWithName:@"user" stringValue:[self getLoggedInUser]];
+    
+    
+    [xmppRoom sendMessage:[message XMLString]];
+    
+    //TODO introduce some delay/animated gif??
+    //TODO check whether sent?
+    return 1;
+    
+}
+- (int)theoryReasonGroupMessage:(NSString *)reason{
+    [self goOnline];
+    DDLogError(@"Sending the theoryReason group message. Reason: %@",reason);
+    NSXMLElement *message = [NSXMLElement elementWithName:@"theoryReason"];
+    [message addAttributeWithName:@"reason" stringValue:reason];
     [message addAttributeWithName:@"user" stringValue:[self getLoggedInUser]];
     
     

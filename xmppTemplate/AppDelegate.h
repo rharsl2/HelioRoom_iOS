@@ -57,6 +57,8 @@
 - (void)sendGroupMessage:(NSString *)msg;
 - (int)inFrontGroupMessage:(NSString *)planet1:(NSString *)planet2;
 - (int)identifyGroupMessage:(NSString *)planetColor:(NSString *)planetName;
+- (int)orderReasonGroupMessage:(NSString *)reason;
+- (int)theoryReasonGroupMessage:(NSString *)reason;
 - (void)joinChat;
 - (void)showLoginView:(UIViewController *)activeViewController;
 - (void)showChooseFirstView:(UIViewController *)activeViewController;

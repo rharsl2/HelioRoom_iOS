@@ -12,6 +12,7 @@
 
 
 @interface TheoriesViewController ()
+@property (nonatomic,strong) PlanetObservationModel *planetModel;
 @end
 
 @implementation TheoriesViewController
@@ -28,6 +29,11 @@
 //@synthesize plutoDropArea = _plutoDropArea;
 
 //@synthesize reasonViewController = _reasonViewController;
+
+-(PlanetObservationModel *)planetModel{
+    if(!_planetModel) _planetModel=[[PlanetObservationModel alloc] init];
+    return _planetModel;
+}
 
 - (NSMutableArray *) allDropAreas{
     if(!_allDropAreas) _allDropAreas=[[NSMutableArray alloc] initWithObjects:mercuryDrop,venusDrop,earthDrop,marsDrop,jupiterDrop,saturnDrop,uranusDrop,neptuneDrop, nil];
